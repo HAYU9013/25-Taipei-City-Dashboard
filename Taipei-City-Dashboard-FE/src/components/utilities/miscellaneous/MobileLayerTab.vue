@@ -42,9 +42,10 @@ function handleToggle() {
     </label>
     <p>
       {{
-        content.name.length > 6
-          ? `${content.name.slice(0, 5)}...`
-          : content.name
+        // content.name.length > 6
+        //   ? `${content.name.slice(0, 5)}...`
+        //   : content.name
+        content.name
       }}
     </p>
   </div>
