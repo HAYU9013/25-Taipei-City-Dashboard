@@ -17,7 +17,8 @@ const filteredMapLayers = computed(() => {
 		return [];
 	}
 	return contentStore.currentDashboard.components.filter(
-		(element) => element?.map_config.length !== 0
+		(element) => element.map_config
+		// (element) => element?.map_config.length !== 0
 	);
 });
 </script>
