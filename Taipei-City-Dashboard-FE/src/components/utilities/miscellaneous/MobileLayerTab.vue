@@ -41,12 +41,12 @@ function handleToggle() {
       >
     </label>
     <p>
-      <!-- {{ content.name }} -->
-      {{
+      {{ content.name }}
+      <!-- {{
         content.name.length > 6
           ? `${content.name.slice(0, 5)}...`
           : content.name
-      }}
+      }} -->
     </p>
   </div>
 </template>
