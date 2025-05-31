@@ -5,7 +5,7 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"golang.org/x/net/websocket"
+
 )
 
 type Question struct {
@@ -88,29 +88,30 @@ func GetAllQuestions(c *gin.Context) {
 		"message": "Questions retrieved successfully",
 		"data":    questions,
 	})
+}
 func VoteQuestionByID(c *gin.Context) {
 	// 會傳題目 id 和選擇的選項回來
+	id := c.Param("id")
 	var req struct {
-		ID     string `json:"id"`
 		Choice string `json:"choice"`
 	}
 	if err := c.ShouldBindJSON(&req); err != nil {
 		c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
 		return
 	}
-	if req.ID == "" || req.Choice == "" {
-		c.JSON(http.StatusBadRequest, gin.H{"error": "id and choice are required"})
+	if id == "" || req.Choice == "" {
+		c.JSON(http.StatusBadRequest, gin.H{"error": "id and choice are required Vote recorded for question ID: %s, choice: %s\n, id, req.Choice"})
 		return
 	}
 
 	// Simulate voting
-	fmt.Printf("Vote recorded for question ID: %s, choice: %s\n", req.ID, req.Choice)
+	fmt.Printf("Vote recorded for question ID: %s, choice: %s\n", id, req.Choice)
 
 	// Write to db
 
 	c.JSON(http.StatusOK, gin.H{
 		"message": "Vote recorded successfully",
-		"data":    map[string]string{"id": req.ID, "choice": req.Choice},
+		"data":    map[string]string{"id": id, "choice": req.Choice},
 	})
 }
 
