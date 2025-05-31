@@ -15,7 +15,6 @@ import DashboardComponent from "../dashboardComponent/DashboardComponent.vue";
 import { useContentStore } from "../store/contentStore";
 import { useDialogStore } from "../store/dialogStore";
 import { useAuthStore } from "../store/authStore";
-
 import HistoryChart from "../components/charts/HistoryChart.vue";
 import ReportIssue from "../components/dialogs/ReportIssue.vue";
 import DownloadData from "../components/dialogs/DownloadData.vue";

@@ -300,6 +300,7 @@ export const useMapStore = defineStore("map", {
 		},
 		// 2. Call an API to get the layer data
 		fetchLocalGeoJson(map_config) {
+			console.warn(`/mapData/${map_config.index}.geojson sss`);
 			axios
 				.get(`/mapData/${map_config.index}.geojson`)
 				.then((rs) => {

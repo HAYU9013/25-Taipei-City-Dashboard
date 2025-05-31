@@ -1,7 +1,9093 @@
 {
    "type": "FeatureCollection",
-   "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
    "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4583433,25.0847416 ]
+    },
+    "properties": {
+    "no":1,
+    "area":"蘆洲區",
+    "name":"永康公園",
+    "address":"蘆洲區永康里長安街204號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4587407,25.0902555 ]
+    },
+    "properties": {
+    "no":2,
+    "area":"蘆洲區",
+    "name":"永平公園",
+    "address":"蘆洲區永樂里永平街1號旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.460049,25.093818 ]
+    },
+    "properties": {
+    "no":3,
+    "area":"蘆洲區",
+    "name":"三民公園",
+    "address":"蘆洲區南港里三民路611號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4626333,25.088225 ]
+    },
+    "properties": {
+    "no":4,
+    "area":"蘆洲區",
+    "name":"柳堤公園",
+    "address":"蘆洲區正義里長樂路及光榮路交叉路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4706464,25.0905222 ]
+    },
+    "properties": {
+    "no":5,
+    "area":"蘆洲區",
+    "name":"仁愛公園",
+    "address":"蘆洲區水湳里水湳街76號旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4632932,25.092088 ]
+    },
+    "properties": {
+    "no":6,
+    "area":"蘆洲區",
+    "name":"捷運公園",
+    "address":"蘆洲區正義里長榮路口以南至捷運蘆洲站"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.464116,25.0837757 ]
+    },
+    "properties": {
+    "no":7,
+    "area":"蘆洲區",
+    "name":"中原公園",
+    "address":"蘆洲區光明里長興路50巷與長樂路交叉口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.460952,25.083143 ]
+    },
+    "properties": {
+    "no":8,
+    "area":"蘆洲區",
+    "name":"正義公園",
+    "address":"蘆洲區正義里中原路13巷與20巷間"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4583381,25.0880431 ]
+    },
+    "properties": {
+    "no":9,
+    "area":"蘆洲區",
+    "name":"大地兒童公園",
+    "address":"蘆洲區正義里永樂街27巷與31巷間"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4649822,25.0885986 ]
+    },
+    "properties": {
+    "no":10,
+    "area":"蘆洲區",
+    "name":"彩虹兒童公園",
+    "address":"蘆洲區正義里光榮路120巷及光明路交叉口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4611789,25.0813443 ]
+    },
+    "properties": {
+    "no":11,
+    "area":"蘆洲區",
+    "name":"長安公園",
+    "address":"蘆洲區忠義里長安街102號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4818459,25.081667 ]
+    },
+    "properties": {
+    "no":12,
+    "area":"蘆洲區",
+    "name":"永安兒童公園",
+    "address":"蘆洲區恆德里永安北路2段與重陽1街交叉口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4814526,25.083945 ]
+    },
+    "properties": {
+    "no":13,
+    "area":"蘆洲區",
+    "name":"尼加拉瓜公園",
+    "address":"蘆洲區仁義里集賢路269巷旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4837734,25.084906 ]
+    },
+    "properties": {
+    "no":14,
+    "area":"蘆洲區",
+    "name":"三蘆公園",
+    "address":"蘆洲區玉清里永安北路二段76巷底"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4763529,25.0800653 ]
+    },
+    "properties": {
+    "no":15,
+    "area":"蘆洲區",
+    "name":"溪墘公園",
+    "address":"蘆洲區溪墘里信義路65號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4684371,25.0784651 ]
+    },
+    "properties": {
+    "no":16,
+    "area":"蘆洲區",
+    "name":"九芎公園",
+    "address":"蘆洲區九芎里九芎街與和平路121巷交叉口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.483554,25.0862472 ]
+    },
+    "properties": {
+    "no":17,
+    "area":"蘆洲區",
+    "name":"重陽公園",
+    "address":"蘆洲區樓厝里重陽街與集賢路221巷"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4605224,25.0958188 ]
+    },
+    "properties": {
+    "no":18,
+    "area":"蘆洲區",
+    "name":"環河公園",
+    "address":"蘆洲區正義里長榮路口以北至環堤大道"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4751696,25.0817604 ]
+    },
+    "properties": {
+    "no":19,
+    "area":"蘆洲區",
+    "name":"三角綠地",
+    "address":"蘆洲區溪漧里中山一、二路交叉路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4681608,25.0818505 ]
+    },
+    "properties": {
+    "no":20,
+    "area":"蘆洲區",
+    "name":"中路兒童公園",
+    "address":"蘆洲區中華里光華路73巷26號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4616207,25.0811388 ]
+    },
+    "properties": {
+    "no":21,
+    "area":"蘆洲區",
+    "name":"長安廣場",
+    "address":"長安街100號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4584102,25.0851148 ]
+    },
+    "properties": {
+    "no":22,
+    "area":"蘆洲區",
+    "name":"成功廣場",
+    "address":"長安街222號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4715241,25.0868908 ]
+    },
+    "properties": {
+    "no":23,
+    "area":"蘆洲區",
+    "name":"永平廣場",
+    "address":"永平街1號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4704786,25.0903577 ]
+    },
+    "properties": {
+    "no":24,
+    "area":"蘆洲區",
+    "name":"仁愛廣場",
+    "address":"水湳街76號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4776419,25.0858421 ]
+    },
+    "properties": {
+    "no":25,
+    "area":"蘆洲區",
+    "name":"鷺江廣場",
+    "address":"民族路33巷"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4726788,25.0824881 ]
+    },
+    "properties": {
+    "no":26,
+    "area":"蘆洲區",
+    "name":"中山廣場",
+    "address":"中央路與中央路9巷、37巷、74巷交叉口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4747182,25.0850909 ]
+    },
+    "properties": {
+    "no":27,
+    "area":"蘆洲區",
+    "name":"蘆洲公園",
+    "address":"蘆州區保和里三民路95號對面(三民籃球旁)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4715241,25.0868908 ]
+    },
+    "properties": {
+    "no":28,
+    "area":"蘆洲區",
+    "name":"兒童遊戲場用地四",
+    "address":"復興路105巷與民族路255巷交叉口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4715241,25.0868908 ]
+    },
+    "properties": {
+    "no":29,
+    "area":"蘆洲區",
+    "name":"兒童遊戲場用地五",
+    "address":"民族路236巷34弄巷口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4715241,25.0868908 ]
+    },
+    "properties": {
+    "no":30,
+    "area":"蘆洲區",
+    "name":"民權綠地",
+    "address":"民權路38巷與信義路351巷巷口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4783403,25.0830895 ]
+    },
+    "properties": {
+    "no":31,
+    "area":"蘆洲區",
+    "name":"九三親子公園",
+    "address":"三民路26巷63號旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4715241,25.0868908 ]
+    },
+    "properties": {
+    "no":32,
+    "area":"蘆洲區",
+    "name":"疏洪生態公園",
+    "address":"121°27'30.76E25° 6'0.70N"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4573415,25.0930687 ]
+    },
+    "properties": {
+    "no":33,
+    "area":"蘆洲區",
+    "name":"疏洪蘆堤公園",
+    "address":"121°27'24.89E25° 5'31.91N"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4573415,25.0930687 ]
+    },
+    "properties": {
+    "no":34,
+    "area":"蘆洲區",
+    "name":"蘆堤寵物公園",
+    "address":"121°27'19.29E25° 4'51.62N"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4715241,25.0868908 ]
+    },
+    "properties": {
+    "no":35,
+    "area":"蘆洲區",
+    "name":"疏洪追風公園",
+    "address":"121°27'20.85E25° 4'475N"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.8643009,25.0352865 ]
+    },
+    "properties": {
+    "no":36,
+    "area":"雙溪區",
+    "name":"雙溪公園",
+    "address":"雙溪區雙溪里泰昌街13號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.9053434827544,25.00996623121406 ]
+    },
+    "properties": {
+    "no":37,
+    "area":"雙溪區",
+    "name":"雙溪兒童公園",
+    "address":"新北市雙溪區東榮街54號對面"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.848726,25.058238 ]
+    },
+    "properties": {
+    "no":38,
+    "area":"雙溪區",
+    "name":"三貂運動公園",
+    "address":"三貂里牡丹派出所旁、尪子崙坑路"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.7055968,25.1748647 ]
+    },
+    "properties": {
+    "no":39,
+    "area":"萬里區",
+    "name":"獅子公園",
+    "address":"新北市萬里區和基隆市交界處，北海岸台2線52公里處"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6832081,25.1738655 ]
+    },
+    "properties": {
+    "no":40,
+    "area":"萬里區",
+    "name":"中幅觀光公園",
+    "address":"北28道路1Km旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6896172,25.204757 ]
+    },
+    "properties": {
+    "no":41,
+    "area":"萬里區",
+    "name":"野柳休閒公園",
+    "address":"野柳里港東路8鄰164號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6496912664342,25.16280356631573 ]
+    },
+    "properties": {
+    "no":42,
+    "area":"萬里區",
+    "name":"瑪鋉公園",
+    "address":"瑪鋉路郵局後方"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4200821,25.1609581 ]
+    },
+    "properties": {
+    "no":43,
+    "area":"八里區",
+    "name":"北河公園",
+    "address":"忠孝路與忠八街路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4187427,25.1583702 ]
+    },
+    "properties": {
+    "no":44,
+    "area":"八里區",
+    "name":"南山公園",
+    "address":"賢三街30號對面"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4105237,25.1571328 ]
+    },
+    "properties": {
+    "no":45,
+    "area":"八里區",
+    "name":"文昌公園",
+    "address":"中山路一段與文昌路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4102266,25.1544117 ]
+    },
+    "properties": {
+    "no":46,
+    "area":"八里區",
+    "name":"狀元公園",
+    "address":"文昌五街與狀元路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4058244,25.1502911 ]
+    },
+    "properties": {
+    "no":47,
+    "area":"八里區",
+    "name":"片仔溝公園",
+    "address":"中華路二段258巷與中華路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4016026,25.1477624 ]
+    },
+    "properties": {
+    "no":48,
+    "area":"八里區",
+    "name":"舊城公園",
+    "address":"中山路二段303巷底"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3939178,25.1480912 ]
+    },
+    "properties": {
+    "no":49,
+    "area":"八里區",
+    "name":"商港路旁綠地",
+    "address":"中山路二段500巷與商港一路交叉街口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.395923,25.146195 ]
+    },
+    "properties": {
+    "no":50,
+    "area":"八里區",
+    "name":"訊塘社區公園",
+    "address":"商港路與中山路二段路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3920466,25.1480585 ]
+    },
+    "properties": {
+    "no":51,
+    "area":"八里區",
+    "name":"水仙公園",
+    "address":"商港路與商港三路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3989399,25.1501193 ]
+    },
+    "properties": {
+    "no":52,
+    "area":"八里區",
+    "name":"商港公園",
+    "address":"商港八路與商港一路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.392011,25.142604 ]
+    },
+    "properties": {
+    "no":53,
+    "area":"八里區",
+    "name":"訊庄埔公園",
+    "address":"中山路三段及訊塘一路"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.391357,25.151151 ]
+    },
+    "properties": {
+    "no":54,
+    "area":"八里區",
+    "name":"八里區行政大樓",
+    "address":"八里大道與中山路二段"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.402841,25.156676 ]
+    },
+    "properties": {
+    "no":55,
+    "area":"八里區",
+    "name":"頂罟活動中心",
+    "address":"八里大道與中山路二段"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.419402,25.160496 ]
+    },
+    "properties": {
+    "no":56,
+    "area":"八里區",
+    "name":"大崁環保公園",
+    "address":"八里區大崁段1號地號 　觀海大道29號對面"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4505282,25.1306337 ]
+    },
+    "properties": {
+    "no":57,
+    "area":"八里區",
+    "name":"龍源公園",
+    "address":"八里區龍米段2039-2043號地號　龍形一街與龍形二街交叉處"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.398034,25.1505294 ]
+    },
+    "properties": {
+    "no":58,
+    "area":"八里區",
+    "name":"商港三路綠帶",
+    "address":"八里區臺北港段30、24、14地號 商港三路旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3979711,25.1531227 ]
+    },
+    "properties": {
+    "no":59,
+    "area":"八里區",
+    "name":"商港五路綠帶",
+    "address":"八里區臺北港段3號地號 商港五路旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4047891,25.1523208 ]
+    },
+    "properties": {
+    "no":60,
+    "area":"八里區",
+    "name":"頂罟公園(中廣綠家園)",
+    "address":"中山路二段129巷對面"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4352614013666,25.15971076297117 ]
+    },
+    "properties": {
+    "no":61,
+    "area":"八里區",
+    "name":"渡船頭公園",
+    "address":"新北市八里區龍米路二段201巷"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4132327,25.1651782 ]
+    },
+    "properties": {
+    "no":62,
+    "area":"八里區",
+    "name":"八里文化公園",
+    "address":"121°24'35.98E25° 9'38.91N"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4300344,25.1608457 ]
+    },
+    "properties": {
+    "no":63,
+    "area":"八里區",
+    "name":"八里左岸公園",
+    "address":"121°25'49.58E25° 9'39.31N"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4408393,25.1537385 ]
+    },
+    "properties": {
+    "no":64,
+    "area":"八里區",
+    "name":"米倉公園",
+    "address":"121°26'46.96E25° 8'46.32N"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4469145,25.1444864 ]
+    },
+    "properties": {
+    "no":65,
+    "area":"八里區",
+    "name":"龍米河濱公園",
+    "address":"121°26'49.17E25° 8'40.71N"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4994292,25.2572155 ]
+    },
+    "properties": {
+    "no":66,
+    "area":"三芝區",
+    "name":"兒一公園",
+    "address":"公正街"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5006361,25.2563412 ]
+    },
+    "properties": {
+    "no":67,
+    "area":"三芝區",
+    "name":"兒二公園",
+    "address":"長安街巷內"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.504759,25.259721 ]
+    },
+    "properties": {
+    "no":68,
+    "area":"三芝區",
+    "name":"兒三公園",
+    "address":"淡金路2段87巷內"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5024341,25.2593452 ]
+    },
+    "properties": {
+    "no":69,
+    "area":"三芝區",
+    "name":"櫻花公園",
+    "address":"中正路三段埔頭橋旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5034842,25.2568068 ]
+    },
+    "properties": {
+    "no":70,
+    "area":"三芝區",
+    "name":"智成公園",
+    "address":"智成堂文武聖廟前"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3656,24.935995 ]
+    },
+    "properties": {
+    "no":71,
+    "area":"三峽區",
+    "name":"中山公園",
+    "address":"中山路文化路口、仁愛街"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3778942,24.9281011 ]
+    },
+    "properties": {
+    "no":72,
+    "area":"三峽區",
+    "name":"大同公園",
+    "address":"光明路75巷內"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3744903,24.9358605 ]
+    },
+    "properties": {
+    "no":73,
+    "area":"三峽區",
+    "name":"介壽公園",
+    "address":"永安街9巷5號(圖書館旁)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3745161,24.9389653 ]
+    },
+    "properties": {
+    "no":74,
+    "area":"三峽區",
+    "name":"龍埔公園",
+    "address":"國光街中段"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3699854,24.9415192 ]
+    },
+    "properties": {
+    "no":75,
+    "area":"三峽區",
+    "name":"龍恩公園",
+    "address":"學成路、國際一街底"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3761403,24.9472327 ]
+    },
+    "properties": {
+    "no":76,
+    "area":"三峽區",
+    "name":"遠雄海洋公園",
+    "address":"學勤路、大義路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3685063,24.9327891 ]
+    },
+    "properties": {
+    "no":77,
+    "area":"三峽區",
+    "name":"藍染公園",
+    "address":"仁愛街47號旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3744903,24.9358605 ]
+    },
+    "properties": {
+    "no":78,
+    "area":"三峽區",
+    "name":"三角圓環公園",
+    "address":"介壽路、中正路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.39136,24.9102744 ]
+    },
+    "properties": {
+    "no":79,
+    "area":"三峽區",
+    "name":"醒心公園",
+    "address":"白雞路醒心橋旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3947194,24.9392468 ]
+    },
+    "properties": {
+    "no":80,
+    "area":"三峽區",
+    "name":"溪北河濱公園",
+    "address":"介壽路三段101之2號旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.427338,24.923738 ]
+    },
+    "properties": {
+    "no":81,
+    "area":"三峽區",
+    "name":"成福河濱公園",
+    "address":"成福路成福國小對面"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3744903,24.9358605 ]
+    },
+    "properties": {
+    "no":82,
+    "area":"三峽區",
+    "name":"礁溪人行廣場",
+    "address":"礁溪里中華路、光明路間"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.353009,24.930818 ]
+    },
+    "properties": {
+    "no":83,
+    "area":"三峽區",
+    "name":"鳶山運動公園",
+    "address":"鳶峰路"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3773127,24.9437244 ]
+    },
+    "properties": {
+    "no":84,
+    "area":"三峽區",
+    "name":"龍學公園",
+    "address":"學成路、大德路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3982696,24.9348706 ]
+    },
+    "properties": {
+    "no":85,
+    "area":"三峽區",
+    "name":"橫溪路120巷簡易公園",
+    "address":"橫溪路120巷內"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3668625,24.9217404 ]
+    },
+    "properties": {
+    "no":86,
+    "area":"三峽區",
+    "name":"大埔里運動公園",
+    "address":"中園街185號對面"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4075596,24.9320793 ]
+    },
+    "properties": {
+    "no":87,
+    "area":"三峽區",
+    "name":"溪東社區公園",
+    "address":"溪東路218巷口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3729524,24.9324734 ]
+    },
+    "properties": {
+    "no":88,
+    "area":"三峽區",
+    "name":"長福公園",
+    "address":"光明路3巷"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3744903,24.9358605 ]
+    },
+    "properties": {
+    "no":89,
+    "area":"三峽區",
+    "name":"兒四公園",
+    "address":"永安街95巷"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3598,24.9417 ]
+    },
+    "properties": {
+    "no":90,
+    "area":"三峽區",
+    "name":"新北市客家文化園區",
+    "address":"三峽區隆恩街239號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3947194,24.9392468 ]
+    },
+    "properties": {
+    "no":91,
+    "area":"三峽區",
+    "name":"溪北河濱公園",
+    "address":"121°23'41.24E24°56'21.39N"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4670911,24.9994048 ]
+    },
+    "properties": {
+    "no":92,
+    "area":"中和區",
+    "name":"清穗公園(公廿九)",
+    "address":"新北市中和區華順街二巷內民德停車場後方及民德路、華順街口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4649348,24.9969285 ]
+    },
+    "properties": {
+    "no":93,
+    "area":"中和區",
+    "name":"華福公園(公廿一)",
+    "address":"新北市中和區華福街與和平街口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4678363,24.9956121 ]
+    },
+    "properties": {
+    "no":94,
+    "area":"中和區",
+    "name":"明德公園(公七)",
+    "address":"新北市中和區民德路208號及274號對面"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4962263,24.9968732 ]
+    },
+    "properties": {
+    "no":95,
+    "area":"中和區",
+    "name":"安邦公園",
+    "address":"新北市中和區連勝街與安邦街口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4714649,25.0001328 ]
+    },
+    "properties": {
+    "no":96,
+    "area":"中和區",
+    "name":"自強公園(公廿)",
+    "address":"新北市中和區莒光路與國光街口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.480082,25.004132 ]
+    },
+    "properties": {
+    "no":97,
+    "area":"中和區",
+    "name":"員山公園(公八)",
+    "address":"新北市中和區員山路455巷內"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4801725,24.9981703 ]
+    },
+    "properties": {
+    "no":98,
+    "area":"中和區",
+    "name":"嘉穗公園(公十一)",
+    "address":"新北市中和區民利街9巷內"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5156764,24.9883719 ]
+    },
+    "properties": {
+    "no":99,
+    "area":"中和區",
+    "name":"景新公園(公六)",
+    "address":"新北市中和區景新街467巷50弄三介廟旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.500617,24.9881734 ]
+    },
+    "properties": {
+    "no":100,
+    "area":"中和區",
+    "name":"中興公園(公十二)",
+    "address":"新北市中和區中興街263巷74號對面"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5025095,24.9913434 ]
+    },
+    "properties": {
+    "no":101,
+    "area":"中和區",
+    "name":"復興公園(公四)",
+    "address":"新北市中和區復興路280巷內"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.523515,24.995824 ]
+    },
+    "properties": {
+    "no":102,
+    "area":"中和區",
+    "name":"秀山公園(公七)",
+    "address":"自立路15巷內"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5139834,25.0022495 ]
+    },
+    "properties": {
+    "no":103,
+    "area":"中和區",
+    "name":"中和公園(公四)(823公園)",
+    "address":"中安街、永貞路、安樂路及安平路間"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5017805,25.0023274 ]
+    },
+    "properties": {
+    "no":104,
+    "area":"中和區",
+    "name":"廟美綠林小徑",
+    "address":"新北市中和區中山路2段181巷旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5034097,24.9924097 ]
+    },
+    "properties": {
+    "no":105,
+    "area":"中和區",
+    "name":"金山板南公園",
+    "address":"新北市中和區板南路(南山路及中興街間)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4853103,24.9962178 ]
+    },
+    "properties": {
+    "no":106,
+    "area":"中和區",
+    "name":"泰隆公園",
+    "address":"新北市中和區環河西路三段與福祥路口；橋和路與永和路"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4853103,24.9962178 ]
+    },
+    "properties": {
+    "no":107,
+    "area":"中和區",
+    "name":"公路二村",
+    "address":"新北市中和區連城路144巷口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4822099,25.0016211 ]
+    },
+    "properties": {
+    "no":108,
+    "area":"中和區",
+    "name":"民樂人行廣場",
+    "address":"新北市中和區民樂路17號中和郵局後方"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5069024,24.9845029 ]
+    },
+    "properties": {
+    "no":109,
+    "area":"中和區",
+    "name":"華新人行廣場",
+    "address":"新北市中和區興南路2段79巷內"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4756048,25.0037012 ]
+    },
+    "properties": {
+    "no":110,
+    "area":"中和區",
+    "name":"民享藝文特區(公一)",
+    "address":"新北市中和區民享街與民治街口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4852911,25.0075698 ]
+    },
+    "properties": {
+    "no":111,
+    "area":"中和區",
+    "name":"元隆公園",
+    "address":"新北市中和區板南路651號(元隆雙星)旁(立言街與板南路口附近)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4669919,24.9942123 ]
+    },
+    "properties": {
+    "no":112,
+    "area":"中和區",
+    "name":"壽德公園",
+    "address":"新北市中和區民德路與壽德街"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4853103,24.9962178 ]
+    },
+    "properties": {
+    "no":113,
+    "area":"中和區",
+    "name":"耆老公園",
+    "address":"新北市中和區莊敬街49巷"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4853103,24.9962178 ]
+    },
+    "properties": {
+    "no":114,
+    "area":"中和區",
+    "name":"瓦?溝沿線綠帶",
+    "address":"新北市中和區勝利路至水源路127巷間水利地"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4853103,24.9962178 ]
+    },
+    "properties": {
+    "no":115,
+    "area":"中和區",
+    "name":"廟仔尾溝加蓋綠帶",
+    "address":"新北市中和區中山路二段174巷至莊敬橋間綠帶"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5043572,25.0011601 ]
+    },
+    "properties": {
+    "no":116,
+    "area":"中和區",
+    "name":"南山溝加蓋綠帶",
+    "address":"新北市中和區南山路到興南路二段74巷間綠帶"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.49711,24.9945 ]
+    },
+    "properties": {
+    "no":117,
+    "area":"中和區",
+    "name":"圓通綠廊",
+    "address":"新北市中和區連勝街至中正路間綠帶 "
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4853103,24.9962178 ]
+    },
+    "properties": {
+    "no":118,
+    "area":"中和區",
+    "name":"中和排水路旁用地(原中山停車場)綠化點",
+    "address":"新北市中和區中山路二段322巷內簡易公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4834486,24.9851096 ]
+    },
+    "properties": {
+    "no":119,
+    "area":"中和區",
+    "name":"中坑公園",
+    "address":"新北市中和區員山路及圓通路交接路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5029963,24.9802032 ]
+    },
+    "properties": {
+    "no":120,
+    "area":"中和區",
+    "name":"興南路二段261巷口綠帶",
+    "address":"新北市中和區興南路二段261巷口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4954244,25.0119165 ]
+    },
+    "properties": {
+    "no":121,
+    "area":"中和區",
+    "name":"華中橋四面邊坡綠帶",
+    "address":"新北市中和區新北市中和區華中橋下"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4929086,25.007587 ]
+    },
+    "properties": {
+    "no":122,
+    "area":"中和區",
+    "name":"中興抽水站旁綠帶",
+    "address":"新北市中和區板南路中正路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4853103,24.9962178 ]
+    },
+    "properties": {
+    "no":123,
+    "area":"中和區",
+    "name":"公一",
+    "address":"新北市中和區中原街旁 "
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4853103,24.9962178 ]
+    },
+    "properties": {
+    "no":124,
+    "area":"中和區",
+    "name":"公二",
+    "address":"新北市中和區環河西路三段近永福宮(永和街) "
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4853103,24.9962178 ]
+    },
+    "properties": {
+    "no":125,
+    "area":"中和區",
+    "name":"公兒一",
+    "address":"新北市中和區中原二街與中原五街口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4853103,24.9962178 ]
+    },
+    "properties": {
+    "no":126,
+    "area":"中和區",
+    "name":"公兒二",
+    "address":"新北市中和區中原二街與中原三街口 "
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4853103,24.9962178 ]
+    },
+    "properties": {
+    "no":127,
+    "area":"中和區",
+    "name":"公兒六",
+    "address":"新北市中和區中原二街與中原六街"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4853103,24.9962178 ]
+    },
+    "properties": {
+    "no":128,
+    "area":"中和區",
+    "name":"公兒七",
+    "address":"新北市中和區中原街與中原西街"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4782933,25.0106726 ]
+    },
+    "properties": {
+    "no":129,
+    "area":"中和區",
+    "name":"員勝公園",
+    "address":"新北市中和區中正路與員山路交叉口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4853103,24.9962178 ]
+    },
+    "properties": {
+    "no":130,
+    "area":"中和區",
+    "name":"碧河公園",
+    "address":"新北市中和區建康路與建八路口及連城路174巷"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.474324,25.008366 ]
+    },
+    "properties": {
+    "no":131,
+    "area":"中和區",
+    "name":"民有公園",
+    "address":"新北市中和區中山路三段環球購物中心後方"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5014293,25.0062951 ]
+    },
+    "properties": {
+    "no":132,
+    "area":"中和區",
+    "name":"山北公園",
+    "address":"新北市中和區莊敬街49巷29弄及33巷36弄之間"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4886939,24.9929001 ]
+    },
+    "properties": {
+    "no":133,
+    "area":"中和區",
+    "name":"錦和運動公園",
+    "address":"新北市中和區新錦和路350號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4294595,25.0757955 ]
+    },
+    "properties": {
+    "no":134,
+    "area":"五股區",
+    "name":"水碓景觀公園",
+    "address":"新北市五股區水碓二路接外寮路"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4318239,25.0723993 ]
+    },
+    "properties": {
+    "no":135,
+    "area":"五股區",
+    "name":"石德公園",
+    "address":"新北市五股區水碓路與水碓一路交叉"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.452553,25.1079595 ]
+    },
+    "properties": {
+    "no":136,
+    "area":"五股區",
+    "name":"獅子頭景觀公園",
+    "address":"新北市五股區孝義路"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4506619,25.0997414 ]
+    },
+    "properties": {
+    "no":137,
+    "area":"五股區",
+    "name":"成州公園",
+    "address":"新北市五股區西雲路435巷底"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4345,25.08835 ]
+    },
+    "properties": {
+    "no":138,
+    "area":"五股區",
+    "name":"民義公園",
+    "address":"新北市五股區五福路五福橋旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4372748,25.0846973 ]
+    },
+    "properties": {
+    "no":139,
+    "area":"五股區",
+    "name":"坑口公園",
+    "address":"新北市五股區工商路85巷及成泰路2段91巷交叉"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4515983,25.101519 ]
+    },
+    "properties": {
+    "no":140,
+    "area":"五股區",
+    "name":"二支郵局對面公園",
+    "address":"新北市五股區中興路4段48巷19號對面"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4333418,25.0719602 ]
+    },
+    "properties": {
+    "no":141,
+    "area":"五股區",
+    "name":"朝陽公園",
+    "address":"新北市五股區明德路12巷.自強路87巷"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4357725,25.0804618 ]
+    },
+    "properties": {
+    "no":142,
+    "area":"五股區",
+    "name":"德音兒童休憩公園",
+    "address":"新北市五股區蓬萊路6巷.成泰路2段235巷交叉處"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4340942,25.0786949 ]
+    },
+    "properties": {
+    "no":143,
+    "area":"五股區",
+    "name":"自然湧泉公園",
+    "address":"新北市五股區成泰路1段189巷底"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4527585,25.1045175 ]
+    },
+    "properties": {
+    "no":144,
+    "area":"五股區",
+    "name":"成德公園",
+    "address":"新北市五股區成泰路四段與成州八路交叉口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4486532,25.0948643 ]
+    },
+    "properties": {
+    "no":145,
+    "area":"五股區",
+    "name":"洲子洋公園",
+    "address":"新北市五股區成泰路與洲子路交岔口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4386586,25.0848317 ]
+    },
+    "properties": {
+    "no":146,
+    "area":"五股區",
+    "name":"公五公園",
+    "address":"新北市五股區芳洲二路與芳洲五路交岔口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4415661,25.0832828 ]
+    },
+    "properties": {
+    "no":147,
+    "area":"五股區",
+    "name":"兒八公園",
+    "address":"新北市五股區新五路與中興路交岔口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4415431,25.0785895 ]
+    },
+    "properties": {
+    "no":148,
+    "area":"五股區",
+    "name":"綠六綠地",
+    "address":"新北市五股區成泰路二段195巷口.五洲橋旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4386586,25.0848317 ]
+    },
+    "properties": {
+    "no":149,
+    "area":"五股區",
+    "name":"成德人行廣場",
+    "address":"新北市五股區成泰路四段成州派出所旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4536063,25.1037826 ]
+    },
+    "properties": {
+    "no":150,
+    "area":"五股區",
+    "name":"五股防災體健公園",
+    "address":"新北市五股區成泰路三段與成州八路交叉"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4284164,25.1039151 ]
+    },
+    "properties": {
+    "no":151,
+    "area":"五股區",
+    "name":"御史路小公園",
+    "address":"新北市五股區御史路1巷105號旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4415431,25.0785895 ]
+    },
+    "properties": {
+    "no":152,
+    "area":"五股區",
+    "name":"綠地(綠七)",
+    "address":"新五路與成泰路中間"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4415431,25.0785895 ]
+    },
+    "properties": {
+    "no":153,
+    "area":"五股區",
+    "name":"綠地(綠八)",
+    "address":"新五路與芳洲二路(新城一路)、(芳洲五路)、(芳洲七路)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4377326,25.085369 ]
+    },
+    "properties": {
+    "no":154,
+    "area":"五股區",
+    "name":"綠地(綠九)",
+    "address":"芳洲路與芳洲一路中間"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4338144,25.0722973 ]
+    },
+    "properties": {
+    "no":155,
+    "area":"五股區",
+    "name":"水碓路綠地",
+    "address":"水碓一路"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4447299,25.0926516 ]
+    },
+    "properties": {
+    "no":156,
+    "area":"五股區",
+    "name":"成功運動公園",
+    "address":"西雲路88巷"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4386586,25.0848317 ]
+    },
+    "properties": {
+    "no":157,
+    "area":"五股區",
+    "name":"廣停三公園",
+    "address":"新五路三段與新城五路交叉口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4345271,25.0718716 ]
+    },
+    "properties": {
+    "no":158,
+    "area":"五股區",
+    "name":"德音新北綠家園",
+    "address":"蓬萊路"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4386586,25.0848317 ]
+    },
+    "properties": {
+    "no":159,
+    "area":"五股區",
+    "name":"德泰新北綠家園",
+    "address":"成泰路1段77號旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4362326,25.0723178 ]
+    },
+    "properties": {
+    "no":160,
+    "area":"五股區",
+    "name":"水碓新北綠家園",
+    "address":"明德路10號旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4386586,25.0848317 ]
+    },
+    "properties": {
+    "no":161,
+    "area":"五股區",
+    "name":"福德新北綠家園",
+    "address":"登林路46巷旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4353459,25.0727689 ]
+    },
+    "properties": {
+    "no":162,
+    "area":"五股區",
+    "name":"成泰新北綠家園",
+    "address":"成泰路3段2巷"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.456757,25.080213 ]
+    },
+    "properties": {
+    "no":163,
+    "area":"五股區",
+    "name":"更寮新北綠家園1",
+    "address":"中興路3段192巷"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.456757,25.080213 ]
+    },
+    "properties": {
+    "no":164,
+    "area":"五股區",
+    "name":"更寮新北綠家園2",
+    "address":"中興路3段160號旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4491889,25.0899285 ]
+    },
+    "properties": {
+    "no":165,
+    "area":"五股區",
+    "name":"疏洪圳邊公園",
+    "address":"121°27'4.21E25° 5'203N"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4386586,25.0848317 ]
+    },
+    "properties": {
+    "no":166,
+    "area":"五股區",
+    "name":"疏洪沼澤公園",
+    "address":"121°27'7.58E25° 4'38.77N"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.465814,25.0683141 ]
+    },
+    "properties": {
+    "no":167,
+    "area":"五股區",
+    "name":"疏洪中央公園",
+    "address":"121°27'39.27E25° 4'10.39N"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.506297,25.011319 ]
+    },
+    "properties": {
+    "no":168,
+    "area":"永和區",
+    "name":"仁愛公園",
+    "address":"仁愛路、永平路、保安路、保生路間"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.516319,25.016157 ]
+    },
+    "properties": {
+    "no":169,
+    "area":"永和區",
+    "name":"中正橋頭小公園(鴿子公園)",
+    "address":"中正橋頭"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5164873,25.0110383 ]
+    },
+    "properties": {
+    "no":170,
+    "area":"永和區",
+    "name":"復興里社區公園",
+    "address":"永和路二段286巷"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5207395,25.0123382 ]
+    },
+    "properties": {
+    "no":171,
+    "area":"永和區",
+    "name":"竹林路91巷公園",
+    "address":"竹林路91巷"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5164873,25.0110383 ]
+    },
+    "properties": {
+    "no":172,
+    "area":"永和區",
+    "name":"中興社區公園(新北綠家園)",
+    "address":"國光路116巷"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5145353,25.0103251 ]
+    },
+    "properties": {
+    "no":173,
+    "area":"永和區",
+    "name":"正興公園",
+    "address":"中興街10巷31號旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5145353,25.0103251 ]
+    },
+    "properties": {
+    "no":174,
+    "area":"永和區",
+    "name":"永興公園",
+    "address":"豫溪街57巷10弄11號右側（美聯社對面）"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5171837,24.996254 ]
+    },
+    "properties": {
+    "no":175,
+    "area":"永和區",
+    "name":"民族社區公園",
+    "address":"民有街25巷"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5190112,24.9984226 ]
+    },
+    "properties": {
+    "no":176,
+    "area":"永和區",
+    "name":"民族街43巷公園(新北綠家園)",
+    "address":"民族街27~43巷間"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5164873,25.0110383 ]
+    },
+    "properties": {
+    "no":177,
+    "area":"永和區",
+    "name":"民治社區公園(新北綠家園)",
+    "address":"智光街22巷"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5169325,25.003425 ]
+    },
+    "properties": {
+    "no":178,
+    "area":"永和區",
+    "name":"中正簡易公園（永和國小對面綠帶）",
+    "address":"中正路412巷旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5164873,25.0110383 ]
+    },
+    "properties": {
+    "no":179,
+    "area":"永和區",
+    "name":"大新社區公園(新北綠家園)",
+    "address":"自強街6巷~8巷"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5186673,24.9939965 ]
+    },
+    "properties": {
+    "no":180,
+    "area":"永和區",
+    "name":"雙和里社區公園",
+    "address":"雙和街37巷與中和街305巷交叉口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5164873,25.0110383 ]
+    },
+    "properties": {
+    "no":181,
+    "area":"永和區",
+    "name":"水源社區公園(新北綠家園)",
+    "address":"保平路177巷"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.516948,25.0033711 ]
+    },
+    "properties": {
+    "no":182,
+    "area":"永和區",
+    "name":"永和國小旁綠美化據點(新北綠家園)",
+    "address":"永和國小旁（中正路281號旁）"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5213727,24.9989399 ]
+    },
+    "properties": {
+    "no":183,
+    "area":"永和區",
+    "name":"秀朗廣場",
+    "address":"中正路465巷"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5095048,25.0141425 ]
+    },
+    "properties": {
+    "no":184,
+    "area":"永和區",
+    "name":"保福社區公園",
+    "address":"保福路三段2號之1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5043187,25.0114442 ]
+    },
+    "properties": {
+    "no":185,
+    "area":"永和區",
+    "name":"公一公園",
+    "address":"保生路55號旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5050735,25.0130508 ]
+    },
+    "properties": {
+    "no":186,
+    "area":"永和區",
+    "name":"保生綠帶",
+    "address":"新生路218 號附近(永和幼兒園保生分班前)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5056083,25.0156419 ]
+    },
+    "properties": {
+    "no":187,
+    "area":"永和區",
+    "name":"綠寶石寵物公園",
+    "address":"121°30'21.23E25° 0'58.10N"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5152654,25.0183208 ]
+    },
+    "properties": {
+    "no":188,
+    "area":"永和區",
+    "name":"永和綠寶石河濱公園",
+    "address":"121°30'29.61E25° 1'69N"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5290142,24.9961434 ]
+    },
+    "properties": {
+    "no":189,
+    "area":"永和區",
+    "name":"中正河濱公園",
+    "address":"121°30'50.33E25° 1'21.49N"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5171361,25.0194871 ]
+    },
+    "properties": {
+    "no":190,
+    "area":"永和區",
+    "name":"綠光河岸公園",
+    "address":"121°31'5.21E25° 1'6.93N"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6240519,24.9567629 ]
+    },
+    "properties": {
+    "no":191,
+    "area":"石碇區",
+    "name":"二格公園",
+    "address":"石碇區北宜路23K處"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4709759,25.0302258 ]
+    },
+    "properties": {
+    "no":192,
+    "area":"板橋區",
+    "name":"農村公園",
+    "address":"吳鳳路50巷46號與雙十路3段交叉口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4699496,25.0294246 ]
+    },
+    "properties": {
+    "no":193,
+    "area":"板橋區",
+    "name":"石雕公園",
+    "address":"吳鳳路50巷(農村公園旁)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.475966,25.0247291 ]
+    },
+    "properties": {
+    "no":194,
+    "area":"板橋區",
+    "name":"八德公園",
+    "address":"雙十路二段與萬板路交叉口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4633838,25.025352 ]
+    },
+    "properties": {
+    "no":195,
+    "area":"板橋區",
+    "name":"四維公園",
+    "address":"陽明街166號(新埔國小旁)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4552622,25.0247209 ]
+    },
+    "properties": {
+    "no":196,
+    "area":"板橋區",
+    "name":"玫瑰公園",
+    "address":"綠堤街至中正路與新月一街交叉口右側７公尺(106年6月15日公四公園併入玫瑰公園)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4529383,25.0205437 ]
+    },
+    "properties": {
+    "no":197,
+    "area":"板橋區",
+    "name":"國光公園",
+    "address":"中正路375巷48號(國光國小旁)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4761758,25.0345155 ]
+    },
+    "properties": {
+    "no":198,
+    "area":"板橋區",
+    "name":"資訊公園",
+    "address":"文化路與長江路口(華江橋頭)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4715225,25.022919 ]
+    },
+    "properties": {
+    "no":199,
+    "area":"板橋區",
+    "name":"中山公園",
+    "address":"莊敬路179號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4716612,25.0193936 ]
+    },
+    "properties": {
+    "no":200,
+    "area":"板橋區",
+    "name":"華江公園",
+    "address":"民生路二段與縣民大道交叉口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.470891,25.0202416 ]
+    },
+    "properties": {
+    "no":201,
+    "area":"板橋區",
+    "name":"莊敬公園",
+    "address":"民生路二段120號(公園大鎮對面)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4511586,25.016463 ]
+    },
+    "properties": {
+    "no":202,
+    "area":"板橋區",
+    "name":"環河公園",
+    "address":"南雅西路二段301巷41弄(國光國小後面)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.446866,25.018893 ]
+    },
+    "properties": {
+    "no":203,
+    "area":"板橋區",
+    "name":"華中公園",
+    "address":"僑中一街124巷底(四汴頭抽水站旁)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4775914,25.0243232 ]
+    },
+    "properties": {
+    "no":204,
+    "area":"板橋區",
+    "name":"永安公園",
+    "address":"雙十路一段25號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4769495,25.0208005 ]
+    },
+    "properties": {
+    "no":205,
+    "area":"板橋區",
+    "name":"永豐公園",
+    "address":"永豐街124號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4760426,25.013346 ]
+    },
+    "properties": {
+    "no":206,
+    "area":"板橋區",
+    "name":"民生公園",
+    "address":"民生路一段30號(板橋憲兵隊旁)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.462864,25.0081 ]
+    },
+    "properties": {
+    "no":207,
+    "area":"板橋區",
+    "name":"介壽公園",
+    "address":"館前東路、公園路、實踐路三角地帶(板橋地政事務所對面)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.464393,24.997713 ]
+    },
+    "properties": {
+    "no":208,
+    "area":"板橋區",
+    "name":"和平公園",
+    "address":"重慶路355號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4600265,24.9969757 ]
+    },
+    "properties": {
+    "no":209,
+    "area":"板橋區",
+    "name":"忠孝公園",
+    "address":"國慶路149巷21弄16號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4600002,24.9961998 ]
+    },
+    "properties": {
+    "no":210,
+    "area":"板橋區",
+    "name":"仁愛公園",
+    "address":"國慶路51號(忠孝公園旁)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.453289,24.9918059 ]
+    },
+    "properties": {
+    "no":211,
+    "area":"板橋區",
+    "name":"華德公園",
+    "address":"四川路二段245巷125號(信義國小對面)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.454914,25.003658 ]
+    },
+    "properties": {
+    "no":212,
+    "area":"板橋區",
+    "name":"南雅公園",
+    "address":"南雅南路二段(光華商職對面)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4626684,24.9913075 ]
+    },
+    "properties": {
+    "no":213,
+    "area":"板橋區",
+    "name":"廣福公園",
+    "address":"廣權路五權公園旁(干誠路底)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4652778,24.9927778 ]
+    },
+    "properties": {
+    "no":214,
+    "area":"板橋區",
+    "name":"五權公園",
+    "address":"廣權路130號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4644871,24.9999771 ]
+    },
+    "properties": {
+    "no":215,
+    "area":"板橋區",
+    "name":"重慶公園",
+    "address":"重慶路擎天雙星旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4618415,25.0114095 ]
+    },
+    "properties": {
+    "no":216,
+    "area":"板橋區",
+    "name":"信義公園",
+    "address":"信義路150巷43-1號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4290795,24.993248 ]
+    },
+    "properties": {
+    "no":217,
+    "area":"板橋區",
+    "name":"崑崙公園",
+    "address":"大觀路三段240號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4312106,24.989176 ]
+    },
+    "properties": {
+    "no":218,
+    "area":"板橋區",
+    "name":"溪北公園",
+    "address":"篤行路二段133號(沙崙國小對面)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4265895,24.988719 ]
+    },
+    "properties": {
+    "no":219,
+    "area":"板橋區",
+    "name":"溪州公園",
+    "address":"溪崑二街113號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4491358,24.9960449 ]
+    },
+    "properties": {
+    "no":220,
+    "area":"板橋區",
+    "name":"華東公園",
+    "address":"華東路(華東停車場及湳仔溝旁)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4804535,25.0276661 ]
+    },
+    "properties": {
+    "no":221,
+    "area":"板橋區",
+    "name":"音樂公園",
+    "address":"大同街70號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4630186,25.0108647 ]
+    },
+    "properties": {
+    "no":222,
+    "area":"板橋區",
+    "name":"公兒二公園",
+    "address":"民權路和中山路交叉口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4457362,25.0024587 ]
+    },
+    "properties": {
+    "no":223,
+    "area":"板橋區",
+    "name":"台北紙廠公園",
+    "address":"板橋市大觀路二段28號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4836021,25.0178564 ]
+    },
+    "properties": {
+    "no":224,
+    "area":"板橋區",
+    "name":"光復簡易公園",
+    "address":"板橋市光環路1段7號光復國中右側"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.468376,25.011432 ]
+    },
+    "properties": {
+    "no":225,
+    "area":"板橋區",
+    "name":"福德公園",
+    "address":"板橋市區運路與新站路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4680979,25.0236651 ]
+    },
+    "properties": {
+    "no":226,
+    "area":"板橋區",
+    "name":"六海園",
+    "address":"板橋市文化路與民生路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.444725,24.9990749 ]
+    },
+    "properties": {
+    "no":227,
+    "area":"板橋區",
+    "name":"親民公園",
+    "address":"大觀路2段力行一巷"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4529536,25.0033264 ]
+    },
+    "properties": {
+    "no":228,
+    "area":"板橋區",
+    "name":"華陽公園",
+    "address":"南雅南路2段4巷、34巷與華東路交界點"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4465762,25.0106434 ]
+    },
+    "properties": {
+    "no":229,
+    "area":"板橋區",
+    "name":"大觀公園",
+    "address":"僑中二街12巷旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4814848,25.0155408 ]
+    },
+    "properties": {
+    "no":230,
+    "area":"板橋區",
+    "name":"埔墘公園",
+    "address":"光復路一段9號光復國中斜對面"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4326321,24.9995297 ]
+    },
+    "properties": {
+    "no":231,
+    "area":"板橋區",
+    "name":"大豐公園",
+    "address":"溪崑國中後面"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4488318,25.0147049 ]
+    },
+    "properties": {
+    "no":232,
+    "area":"板橋區",
+    "name":"浮洲運動公園",
+    "address":"僑中一街1 24巷與80巷交會處"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.460945,25.013311 ]
+    },
+    "properties": {
+    "no":233,
+    "area":"板橋區",
+    "name":"萬坪公園",
+    "address":"文化路與民權路交叉口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4618415,25.0114095 ]
+    },
+    "properties": {
+    "no":234,
+    "area":"板橋區",
+    "name":"光環綠地",
+    "address":"板橋區光復國中斜對面"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4740693,25.0316691 ]
+    },
+    "properties": {
+    "no":235,
+    "area":"板橋區",
+    "name":"仁化綠地",
+    "address":"板橋區文化路2段"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4601717,25.021046 ]
+    },
+    "properties": {
+    "no":236,
+    "area":"板橋區",
+    "name":"幸福綠地",
+    "address":"板橋區幸福路70巷底"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4594333,25.0085455 ]
+    },
+    "properties": {
+    "no":237,
+    "area":"板橋區",
+    "name":"府中綠地",
+    "address":"板橋區東門街2巷36號旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4770577,25.0141242 ]
+    },
+    "properties": {
+    "no":238,
+    "area":"板橋區",
+    "name":"海山綠地",
+    "address":"板橋區民享街116巷3號旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4499029846685,25.0084847530225 ]
+    },
+    "properties": {
+    "no":239,
+    "area":"板橋區",
+    "name":"湳仔綠地",
+    "address":"板橋區湳子一橋旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4785508,25.019395 ]
+    },
+    "properties": {
+    "no":240,
+    "area":"板橋區",
+    "name":"光仁綠地",
+    "address":"中山路309巷底"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4514479,24.9965193 ]
+    },
+    "properties": {
+    "no":241,
+    "area":"板橋區",
+    "name":"板城綠地",
+    "address":"板城路大觀橋旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4250414,24.9863792 ]
+    },
+    "properties": {
+    "no":242,
+    "area":"板橋區",
+    "name":"滿平綠地",
+    "address":"板林路與滿平二街口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4618415,25.0114095 ]
+    },
+    "properties": {
+    "no":243,
+    "area":"板橋區",
+    "name":"民族綠地",
+    "address":"民族路(加油站對面)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4579173,25.0294767 ]
+    },
+    "properties": {
+    "no":244,
+    "area":"板橋區",
+    "name":"望月公園",
+    "address":"環河西路四段與新海路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4676762,25.0329077 ]
+    },
+    "properties": {
+    "no":245,
+    "area":"板橋區",
+    "name":"溪頭公園",
+    "address":"華江九路與華江一路口(停車場旁)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4721908,25.0353927 ]
+    },
+    "properties": {
+    "no":246,
+    "area":"板橋區",
+    "name":"稚匯公園",
+    "address":"華江三路與華江五路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4800873,25.0363079 ]
+    },
+    "properties": {
+    "no":247,
+    "area":"板橋區",
+    "name":"時光公園",
+    "address":"環河西路四段(華江橋旁)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4753216,25.0362003 ]
+    },
+    "properties": {
+    "no":248,
+    "area":"板橋區",
+    "name":"華江123木頭園",
+    "address":"華江一路與華江二路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4812371,25.0310008 ]
+    },
+    "properties": {
+    "no":249,
+    "area":"板橋區",
+    "name":"懷石公園",
+    "address":"環可西路699巷與田單北街口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4618415,25.0114095 ]
+    },
+    "properties": {
+    "no":250,
+    "area":"板橋區",
+    "name":"綠地二",
+    "address":"中正路與新海橋交叉口左側26公尺"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4618415,25.0114095 ]
+    },
+    "properties": {
+    "no":251,
+    "area":"板橋區",
+    "name":"綠地三",
+    "address":"正路與新海橋入口處左側18公尺"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4795155,25.0170264 ]
+    },
+    "properties": {
+    "no":252,
+    "area":"板橋區",
+    "name":"綠地四",
+    "address":"中正路與新月一街交叉口左前方41公尺"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4480489,24.9936869 ]
+    },
+    "properties": {
+    "no":253,
+    "area":"板橋區",
+    "name":"公九公園(華東路)",
+    "address":"華東路(遠揚社區對面)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4683245,25.0047341 ]
+    },
+    "properties": {
+    "no":254,
+    "area":"板橋區",
+    "name":"國泰綠地(新北綠家園)",
+    "address":"國泰街75巷45號前"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4502353,25.0219134 ]
+    },
+    "properties": {
+    "no":255,
+    "area":"板橋區",
+    "name":"藝香公園",
+    "address":"板城路與藝文二階及香社一路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4499414,25.020185 ]
+    },
+    "properties": {
+    "no":256,
+    "area":"板橋區",
+    "name":"雙社公園",
+    "address":"香社一路與板城路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4502297,25.0232091 ]
+    },
+    "properties": {
+    "no":257,
+    "area":"板橋區",
+    "name":"文丘公園",
+    "address":"環河西路五段379巷"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4618415,25.0114095 ]
+    },
+    "properties": {
+    "no":258,
+    "area":"板橋區",
+    "name":"海山國小綠地",
+    "address":"民族路151巷旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4328664,24.993739 ]
+    },
+    "properties": {
+    "no":259,
+    "area":"板橋區",
+    "name":"崑崙活力廣場",
+    "address":"板橋市沙崙街9號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4734564,25.0288794 ]
+    },
+    "properties": {
+    "no":260,
+    "area":"板橋區",
+    "name":"雙十人行廣場",
+    "address":"文化路2段182巷7弄"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4623025,25.0142992 ]
+    },
+    "properties": {
+    "no":261,
+    "area":"板橋區",
+    "name":"站前廣場",
+    "address":"文化路與新府路交叉口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4452015,25.0061874 ]
+    },
+    "properties": {
+    "no":262,
+    "area":"板橋區",
+    "name":"馥華公園",
+    "address":"僑中二街118號前"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4703919,25.013939 ]
+    },
+    "properties": {
+    "no":263,
+    "area":"板橋區",
+    "name":"聲寶東南側廣場",
+    "address":"中山路1段206巷"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4436035,25.0014684 ]
+    },
+    "properties": {
+    "no":264,
+    "area":"板橋區",
+    "name":"龍興街綠地",
+    "address":"大觀路2段30巷龍興街"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4823525,25.0177848 ]
+    },
+    "properties": {
+    "no":265,
+    "area":"板橋區",
+    "name":"富貴綠地",
+    "address":"長壽街與光環路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4491295,25.0164005 ]
+    },
+    "properties": {
+    "no":266,
+    "area":"板橋區",
+    "name":"華鉅公園",
+    "address":"大觀路一段38巷口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4530788,25.0237208 ]
+    },
+    "properties": {
+    "no":267,
+    "area":"板橋區",
+    "name":"中正路433巷口綠地",
+    "address":"中正路433巷口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4540402,25.008843 ]
+    },
+    "properties": {
+    "no":268,
+    "area":"板橋區",
+    "name":"柏壽公園",
+    "address":"館前西路與府中路交叉口(接雲寺前)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4740075,25.0233245 ]
+    },
+    "properties": {
+    "no":269,
+    "area":"板橋區",
+    "name":"埤墘公園",
+    "address":"萬板路與莒光路口(萬板路82巷旁)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4511586,25.016463 ]
+    },
+    "properties": {
+    "no":270,
+    "area":"板橋區",
+    "name":"環河公園旁綠地",
+    "address":"南雅西路2段301巷41弄內"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4694853,25.0326801 ]
+    },
+    "properties": {
+    "no":271,
+    "area":"板橋區",
+    "name":"馥華園美捐贈公園",
+    "address":"大觀路1段38巷口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4773311,25.01215 ]
+    },
+    "properties": {
+    "no":272,
+    "area":"板橋區",
+    "name":"正隆公園",
+    "address":"新北市板橋區民生路一段26-1號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4856198,25.0260101 ]
+    },
+    "properties": {
+    "no":273,
+    "area":"板橋區",
+    "name":"江翠礫間水岸公園",
+    "address":"121°29'7.39E25° 1'320N"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4709765,25.0368865 ]
+    },
+    "properties": {
+    "no":274,
+    "area":"板橋區",
+    "name":"江子翠河口景觀河濱公園",
+    "address":"121°28'51.10E25° 2'16.34N"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4385368,24.9963754 ]
+    },
+    "properties": {
+    "no":275,
+    "area":"板橋區",
+    "name":"浮洲藝術河濱公園",
+    "address":"121°26'26.54E25° 0'12.51N"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4397709,24.9932918 ]
+    },
+    "properties": {
+    "no":276,
+    "area":"板橋區",
+    "name":"浮洲寵物公園",
+    "address":"121°26'23.25E24°59'382N"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4387913,24.9897365 ]
+    },
+    "properties": {
+    "no":277,
+    "area":"板橋區",
+    "name":"板橋環保公園",
+    "address":"121°26'24.47E24°59'29.12N"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4582533,25.0137359 ]
+    },
+    "properties": {
+    "no":278,
+    "area":"板橋區",
+    "name":"板橋第二運動場  三角公園",
+    "address":"新北市板橋區民權路117號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4582533,25.0137359 ]
+    },
+    "properties": {
+    "no":279,
+    "area":"板橋區",
+    "name":"板橋第二運動場  社後公園",
+    "address":"新北市板橋區民權路117號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4582533,25.0137359 ]
+    },
+    "properties": {
+    "no":280,
+    "area":"板橋區",
+    "name":"板橋第二運動場  板信公園",
+    "address":"新北市板橋區民權路117號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4349838,25.0614546 ]
+    },
+    "properties": {
+    "no":281,
+    "area":"泰山區",
+    "name":"楓樹腳公園",
+    "address":"楓江路26巷"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4318686,25.0553434 ]
+    },
+    "properties": {
+    "no":282,
+    "area":"泰山區",
+    "name":"同興公園",
+    "address":"仁義路與仁愛路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4351299,25.0645759 ]
+    },
+    "properties": {
+    "no":283,
+    "area":"泰山區",
+    "name":"和平公園",
+    "address":"楓樹街與和平街口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4317793,25.0585992 ]
+    },
+    "properties": {
+    "no":284,
+    "area":"泰山區",
+    "name":"全興公園",
+    "address":"全興路18巷"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4327673,25.0586173 ]
+    },
+    "properties": {
+    "no":285,
+    "area":"泰山區",
+    "name":"福泰公園",
+    "address":"全興路25巷口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4346141,25.0579967 ]
+    },
+    "properties": {
+    "no":286,
+    "area":"泰山區",
+    "name":"福興公園",
+    "address":"福興三街與泰林路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4349657,25.0569669 ]
+    },
+    "properties": {
+    "no":287,
+    "area":"泰山區",
+    "name":"仁愛公園",
+    "address":"泰林路與仁德路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4283069,25.0573196 ]
+    },
+    "properties": {
+    "no":288,
+    "area":"泰山區",
+    "name":"辭修公園",
+    "address":"辭修路底"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4204292,25.0299856 ]
+    },
+    "properties": {
+    "no":289,
+    "area":"泰山區",
+    "name":"貴和兒童公園",
+    "address":"明志路三段(飛指部對面)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4296663,25.059396 ]
+    },
+    "properties": {
+    "no":290,
+    "area":"泰山區",
+    "name":"文史影像公園",
+    "address":"明志路一段352巷底"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4315883,25.0605233 ]
+    },
+    "properties": {
+    "no":291,
+    "area":"泰山區",
+    "name":"後山公園",
+    "address":"明志路一段(公所後方)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4265186,25.0661395 ]
+    },
+    "properties": {
+    "no":292,
+    "area":"泰山區",
+    "name":"山腳公園",
+    "address":"泰林路二段522巷底"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4369929,25.0647478 ]
+    },
+    "properties": {
+    "no":293,
+    "area":"泰山區",
+    "name":"楓樹河濱公園",
+    "address":"和平街底"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4235622,25.0418993 ]
+    },
+    "properties": {
+    "no":294,
+    "area":"泰山區",
+    "name":"貴子兒童公園",
+    "address":"明志路三段74巷"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4028492,25.0733915 ]
+    },
+    "properties": {
+    "no":295,
+    "area":"泰山區",
+    "name":"三角公園",
+    "address":"泰林路三段(蘇厝普天宮牌樓對面)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4327919,25.0581641 ]
+    },
+    "properties": {
+    "no":296,
+    "area":"泰山區",
+    "name":"崩崁腳公園",
+    "address":"大科路自強路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4208858,25.0634759 ]
+    },
+    "properties": {
+    "no":297,
+    "area":"泰山區",
+    "name":"黎明公園",
+    "address":"泰林路與黎明路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4226016,25.0643443 ]
+    },
+    "properties": {
+    "no":298,
+    "area":"泰山區",
+    "name":"黎明步道花園",
+    "address":"泰林路522巷底"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4238325,25.0490979 ]
+    },
+    "properties": {
+    "no":299,
+    "area":"泰山區",
+    "name":"義學坑自然公園",
+    "address":"明志路西側山區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4278975,25.0504126 ]
+    },
+    "properties": {
+    "no":300,
+    "area":"泰山區",
+    "name":"文程廣場",
+    "address":"明志路2段文程路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.439742,25.0498393 ]
+    },
+    "properties": {
+    "no":301,
+    "area":"泰山區 ",
+    "name":"泰山捷運公園",
+    "address":"泰林路一段與莊泰路交叉口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4327919,25.0581641 ]
+    },
+    "properties": {
+    "no":302,
+    "area":"泰山區 ",
+    "name":"公九公園",
+    "address":"信華五街旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4236987,25.0441471 ]
+    },
+    "properties": {
+    "no":303,
+    "area":"泰山區 ",
+    "name":"應化大排生態園區",
+    "address":"應化街內"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4336125,25.0566184 ]
+    },
+    "properties": {
+    "no":304,
+    "area":"泰山區 ",
+    "name":"仁德公園",
+    "address":"仁德路與全興路交叉口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.43278,25.061103 ]
+    },
+    "properties": {
+    "no":305,
+    "area":"泰山區",
+    "name":"泰山體育園區",
+    "address":"新北市泰山區公園路54號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.925359,25.053979 ]
+    },
+    "properties": {
+    "no":306,
+    "area":"貢寮區",
+    "name":"澳底公園",
+    "address":"新北市貢寮區仁愛路43號旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.9302277,25.0287227 ]
+    },
+    "properties": {
+    "no":307,
+    "area":"貢寮區",
+    "name":"貢寮龍門運動公園",
+    "address":"新北市貢寮區龍門里鄰台二線旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.905689,25.0214299 ]
+    },
+    "properties": {
+    "no":308,
+    "area":"貢寮區",
+    "name":"環保公園",
+    "address":"新北市貢寮區長泰路18-2號(貢寮大橋貢寮社區活動中心)旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.450492,25.1646925 ]
+    },
+    "properties": {
+    "no":309,
+    "area":"淡水區",
+    "name":"運動公園",
+    "address":"竿蓁里中正東路一段3巷底"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4501326,25.1646716 ]
+    },
+    "properties": {
+    "no":310,
+    "area":"淡水區",
+    "name":"百齡公園",
+    "address":"竿蓁里中正東路一段3巷西側(欣芝天然瓦斯對面)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4408531,25.1725346 ]
+    },
+    "properties": {
+    "no":311,
+    "area":"淡水區",
+    "name":"衛教公園",
+    "address":"淡水區協元里淡水區衛生所旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4631598,25.138103 ]
+    },
+    "properties": {
+    "no":312,
+    "area":"淡水區",
+    "name":"竹圍公園",
+    "address":"淡水區民生里民生路67號前"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4372501,25.1720428 ]
+    },
+    "properties": {
+    "no":313,
+    "area":"淡水區",
+    "name":"觀潮廣場",
+    "address":"淡水區中正路298號(淡水藝術工坊)對面"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.424177,25.183376 ]
+    },
+    "properties": {
+    "no":314,
+    "area":"淡水區",
+    "name":"文中四壘球場及多功能社區公園",
+    "address":"淡水區沙崙路181巷旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4439956,25.1782573 ]
+    },
+    "properties": {
+    "no":315,
+    "area":"淡水區",
+    "name":"中山北路一段帶狀公園",
+    "address":"淡水區中山北路一段(水碓派出所與新春街口間)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4433706,25.1719805 ]
+    },
+    "properties": {
+    "no":316,
+    "area":"淡水區",
+    "name":"安樂伯公園",
+    "address":"淡水區中正東路(竿蓁一街與平遠街間)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4297544,25.1780643 ]
+    },
+    "properties": {
+    "no":317,
+    "area":"淡水區",
+    "name":"和平公園",
+    "address":"淡水區中正路一段6巷〈淡水高爾夫球場前〉"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4433706,25.1719805 ]
+    },
+    "properties": {
+    "no":318,
+    "area":"淡水區",
+    "name":"文中八運動園區",
+    "address":"淡水區中山北路一段(新春街口對面)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.439628,25.1730863 ]
+    },
+    "properties": {
+    "no":319,
+    "area":"淡水區",
+    "name":"中興(1）口袋公園",
+    "address":"淡水區原德路73巷27號旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4413978,25.1742038 ]
+    },
+    "properties": {
+    "no":320,
+    "area":"淡水區",
+    "name":"協元(1)口袋公園",
+    "address":"淡水區新生街30巷64號前、65號後(含建設街一巷一號前)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.439628,25.1730863 ]
+    },
+    "properties": {
+    "no":321,
+    "area":"淡水區",
+    "name":"大庄(1)口袋公園",
+    "address":"淡水區沙崙路與淡海路交接路口（淡水都市計畫(市五用地)）"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.439628,25.1730863 ]
+    },
+    "properties": {
+    "no":322,
+    "area":"淡水區",
+    "name":"油車(1)口袋公園",
+    "address":"淡水區中正路一段蘇府王爺廟右側"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.439628,25.1730863 ]
+    },
+    "properties": {
+    "no":323,
+    "area":"淡水區",
+    "name":"油車(3)口袋公園",
+    "address":"淡水區沙崙路、中正路交叉路口起沙崙路至沙崙路216巷兩側綠帶(含果嶺大道)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.439628,25.1730863 ]
+    },
+    "properties": {
+    "no":324,
+    "area":"淡水區",
+    "name":"油車(4)口袋公園",
+    "address":"淡水區沙崙路社福大樓左側空地"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4413978,25.1742038 ]
+    },
+    "properties": {
+    "no":325,
+    "area":"淡水區",
+    "name":"協元(2)口袋公園",
+    "address":"淡水區重建街1巷1弄旁空地"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.453353,25.232681 ]
+    },
+    "properties": {
+    "no":326,
+    "area":"淡水區",
+    "name":"賢孝社區公園",
+    "address":"淡水區淡金路5段20號對面"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4433706,25.1719805 ]
+    },
+    "properties": {
+    "no":327,
+    "area":"淡水區",
+    "name":"藝術穿堂",
+    "address":"淡水區中正路274號旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4433706,25.1719805 ]
+    },
+    "properties": {
+    "no":328,
+    "area":"淡水區",
+    "name":"兒童遊樂場",
+    "address":"淡水區中山北路2段189巷內"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4417728,25.1867497 ]
+    },
+    "properties": {
+    "no":329,
+    "area":"淡水區",
+    "name":"公8公園",
+    "address":"淡水區中山北路二段381巷內(淡水區公所新行政大樓後方對面)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4433706,25.1719805 ]
+    },
+    "properties": {
+    "no":330,
+    "area":"淡水區",
+    "name":"木下淨涯週邊開放空間",
+    "address":"淡水區中正路260號旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4387164,25.1713357 ]
+    },
+    "properties": {
+    "no":331,
+    "area":"淡水區",
+    "name":"馬偕銅像三角公園",
+    "address":"淡水區中正路與建設街交接路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4648039,25.1319282 ]
+    },
+    "properties": {
+    "no":332,
+    "area":"淡水區",
+    "name":"福德公園",
+    "address":"淡水區自強路18巷底"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4440921,25.168927 ]
+    },
+    "properties": {
+    "no":333,
+    "area":"淡水區",
+    "name":"淡水老街廣場",
+    "address":"淡水區中正路路口(捷運站往中正路方向)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4315255,25.190512 ]
+    },
+    "properties": {
+    "no":334,
+    "area":"淡水區",
+    "name":"公7公園",
+    "address":"淡水區沙崙路與濱海路2段交叉口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4315255,25.190512 ]
+    },
+    "properties": {
+    "no":335,
+    "area":"淡水區",
+    "name":"公22公園",
+    "address":"淡水區新市5路2段上(鄰旁為太子廟與崁頂社區)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.42921,25.20003 ]
+    },
+    "properties": {
+    "no":336,
+    "area":"淡水區",
+    "name":"公23公園",
+    "address":"淡水區後州路一段與新市5路2段和新市3路(對面為家天下社區)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4272427,25.183861 ]
+    },
+    "properties": {
+    "no":337,
+    "area":"淡水區",
+    "name":"滬尾砲臺公園",
+    "address":"淡水區中正路一段22巷內"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4390467,25.1790066 ]
+    },
+    "properties": {
+    "no":338,
+    "area":"淡水區",
+    "name":"新民公園",
+    "address":"淡水區新興國小斜對面"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4433706,25.1719805 ]
+    },
+    "properties": {
+    "no":339,
+    "area":"淡水區",
+    "name":"米粉埔公園",
+    "address":"淡水區中正東路一段161巷內"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4622216,25.1352124 ]
+    },
+    "properties": {
+    "no":340,
+    "area":"淡水區",
+    "name":"竹圍民權公園",
+    "address":"民族路與民族路112巷路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4626317,25.1353159 ]
+    },
+    "properties": {
+    "no":341,
+    "area":"淡水區",
+    "name":"竹圍段894-7公園",
+    "address":"淡水區民權路187巷旁(水紀元社區後方)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4433706,25.1719805 ]
+    },
+    "properties": {
+    "no":342,
+    "area":"淡水區",
+    "name":"馬階段151-2公園",
+    "address":"民權路一段3巷內"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4590308,25.1577452 ]
+    },
+    "properties": {
+    "no":343,
+    "area":"淡水區",
+    "name":"海闊社區旁公園",
+    "address":"淡水區中正東路二段25巷"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4633295,25.1562279 ]
+    },
+    "properties": {
+    "no":344,
+    "area":"淡水區",
+    "name":"海天社區旁公園",
+    "address":"紅樹林站對面(中正東路二段與八勢一街口)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4284524,25.1782709 ]
+    },
+    "properties": {
+    "no":345,
+    "area":"淡水區",
+    "name":"新北市忠烈祠",
+    "address":"新北市淡水區中正路1段6巷31號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.437371,25.1740069 ]
+    },
+    "properties": {
+    "no":346,
+    "area":"淡水區",
+    "name":"文化國小對面公園",
+    "address":"紅毛城段784地號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4414592,25.1689094 ]
+    },
+    "properties": {
+    "no":347,
+    "area":"淡水區",
+    "name":"金色水岸河濱公園",
+    "address":"121°26'33.81E25°10'5.42N"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4433706,25.1719805 ]
+    },
+    "properties": {
+    "no":348,
+    "area":"淡水區",
+    "name":"捷運公園",
+    "address":"121°26'41.98E25°10'1.74N"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4372501,25.1720428 ]
+    },
+    "properties": {
+    "no":349,
+    "area":"淡水區",
+    "name":"觀山公園",
+    "address":"121°27'42.22E25° 7'23.98N"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5266546,24.9775152 ]
+    },
+    "properties": {
+    "no":350,
+    "area":"新店區",
+    "name":"中央八街底公園",
+    "address":"中央八街底"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5458313,24.9812448 ]
+    },
+    "properties": {
+    "no":351,
+    "area":"新店區",
+    "name":"中興公園(公一)",
+    "address":"中興路3段126號巷內"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5326292,24.9732382 ]
+    },
+    "properties": {
+    "no":352,
+    "area":"新店區",
+    "name":"福民公園 (公六1一)",
+    "address":"褔園街8-6號旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5122878,24.9602699 ]
+    },
+    "properties": {
+    "no":353,
+    "area":"新店區",
+    "name":"安康森林公園",
+    "address":"安康路2段169號對面"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.53865,24.976309 ]
+    },
+    "properties": {
+    "no":354,
+    "area":"新店區",
+    "name":"交通公園(公三)",
+    "address":"民族路105號大豐國小對面"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5356367,24.9737575 ]
+    },
+    "properties": {
+    "no":355,
+    "area":"新店區",
+    "name":"安華公園(公五)",
+    "address":"中正路307巷內"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5425309,24.9683429 ]
+    },
+    "properties": {
+    "no":356,
+    "area":"新店區",
+    "name":"馬公公園(公十)",
+    "address":"北新路一段92號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.544369,24.972319 ]
+    },
+    "properties": {
+    "no":357,
+    "area":"新店區",
+    "name":"原野公園(公八)",
+    "address":"德正街19巷內"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.537207,24.977389 ]
+    },
+    "properties": {
+    "no":358,
+    "area":"新店區",
+    "name":"大豐公園",
+    "address":"民族路105號大豐國小旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.538887,24.969364 ]
+    },
+    "properties": {
+    "no":359,
+    "area":"新店區",
+    "name":"?公公園",
+    "address":"中華路54巷與60巷間"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5382492,24.9769751 ]
+    },
+    "properties": {
+    "no":360,
+    "area":"新店區",
+    "name":"小金門公園",
+    "address":"民族路105號大豐國小對面"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5374463,24.9712779 ]
+    },
+    "properties": {
+    "no":361,
+    "area":"新店區",
+    "name":"三民公園",
+    "address":"三民咯中正國小旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5127068,24.9588747 ]
+    },
+    "properties": {
+    "no":362,
+    "area":"新店區",
+    "name":"原民局公園",
+    "address":"安忠路57巷旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5321214,24.9588825 ]
+    },
+    "properties": {
+    "no":363,
+    "area":"新店區",
+    "name":"太平運動公園",
+    "address":"精忠路10-1號邊"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5419289,24.9698492 ]
+    },
+    "properties": {
+    "no":364,
+    "area":"新店區",
+    "name":"北新藝術廣場",
+    "address":"北新路一段351號旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.547351,24.9509658 ]
+    },
+    "properties": {
+    "no":365,
+    "area":"新店區",
+    "name":"青潭河濱公園",
+    "address":"北宜路2段64號邊"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.546478,24.978061 ]
+    },
+    "properties": {
+    "no":366,
+    "area":"新店區",
+    "name":"裕隆公園",
+    "address":"品牌路旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5441602,24.9667222 ]
+    },
+    "properties": {
+    "no":367,
+    "area":"新店區",
+    "name":"五峰重劃區附設公園",
+    "address":"中正路惠國市場對面"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5181765,24.9726517 ]
+    },
+    "properties": {
+    "no":368,
+    "area":"新店區",
+    "name":"安和景觀公園",
+    "address":"安和路2段163號旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5136106,24.9643078 ]
+    },
+    "properties": {
+    "no":369,
+    "area":"新店區",
+    "name":"安光路公園",
+    "address":"安光路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5172843,24.9871215 ]
+    },
+    "properties": {
+    "no":370,
+    "area":"新店區",
+    "name":"天山公園",
+    "address":"永安街34號旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.551557,24.980161 ]
+    },
+    "properties": {
+    "no":371,
+    "area":"新店區",
+    "name":"寶?公園",
+    "address":"寶橋路78巷(家樂福後面)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5433872,24.9787067 ]
+    },
+    "properties": {
+    "no":372,
+    "area":"新店區",
+    "name":"寶強路6號右邊公園(寶強段589-2地號)",
+    "address":"寶強路6號右邊公園(寶強段589-2地號)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5267308,24.9777016 ]
+    },
+    "properties": {
+    "no":373,
+    "area":"新店區",
+    "name":"中央鄰里公園",
+    "address":"新店高中對面(央北一路及中央路交叉口)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5283132,24.9793478 ]
+    },
+    "properties": {
+    "no":374,
+    "area":"新店區",
+    "name":"十四張歷史公園",
+    "address":"央北二路與斯馨二路交叉口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5394822,24.978282 ]
+    },
+    "properties": {
+    "no":375,
+    "area":"新店區",
+    "name":"遊五公園",
+    "address":"安民街269巷底"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.527088,24.9865499 ]
+    },
+    "properties": {
+    "no":376,
+    "area":"新店區",
+    "name":"秀朗清溪公園",
+    "address":"121°31'25.14E24°59'0.84N"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5203229,24.9769623 ]
+    },
+    "properties": {
+    "no":377,
+    "area":"新店區",
+    "name":"陽光運動公園",
+    "address":"121°31'13.31E24°58'36.20N"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.535255,24.965461 ]
+    },
+    "properties": {
+    "no":378,
+    "area":"新店區",
+    "name":"親情河濱公園",
+    "address":"121°32'7.71E24°57'55.10N"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5394822,24.978282 ]
+    },
+    "properties": {
+    "no":379,
+    "area":"新店區",
+    "name":"親情寵物公園",
+    "address":"121°32'7.33E24°57'53.19N"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5187569,24.9775227 ]
+    },
+    "properties": {
+    "no":380,
+    "area":"新店區",
+    "name":"溪洲運動公園",
+    "address":"121°26'10.19E24°58'39.92N"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3303077,24.9629373 ]
+    },
+    "properties": {
+    "no":381,
+    "area":"鶯歌區",
+    "name":"鳳祥公園",
+    "address":"鶯桃路413巷"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3461476,24.9470076 ]
+    },
+    "properties": {
+    "no":382,
+    "area":"鶯歌區",
+    "name":"尖山公園",
+    "address":"新北市鶯歌區尖山路137巷"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3353989,24.9670229 ]
+    },
+    "properties": {
+    "no":383,
+    "area":"鶯歌區",
+    "name":"鳳鳴公園",
+    "address":"新北市鶯歌區鳳鳴街(鳳鳴國小旁)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3297972,24.9748653 ]
+    },
+    "properties": {
+    "no":384,
+    "area":"鶯歌區",
+    "name":"鳳福公園",
+    "address":"鳳福市民活動中心旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3533711,24.9518313 ]
+    },
+    "properties": {
+    "no":385,
+    "area":"鶯歌區",
+    "name":"古鐘樓公園",
+    "address":"新北市鶯歌區館前路300號對面"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3597957,24.9573962 ]
+    },
+    "properties": {
+    "no":386,
+    "area":"鶯歌區",
+    "name":"北鶯公園",
+    "address":"新北市鶯歌區中正一路405號旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3427262,24.9614967 ]
+    },
+    "properties": {
+    "no":387,
+    "area":"鶯歌區",
+    "name":"尖二公園",
+    "address":"新北市鶯歌區尖山路166巷"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3403326,24.9485772 ]
+    },
+    "properties": {
+    "no":388,
+    "area":"鶯歌區",
+    "name":"永昌公園",
+    "address":"新北市鶯歌區尖山埔路接尖山埔路二段"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3348781,24.9614352 ]
+    },
+    "properties": {
+    "no":389,
+    "area":"鶯歌區",
+    "name":"永吉公園",
+    "address":"新北市鶯歌區鶯桃路296巷"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3393524,24.956506 ]
+    },
+    "properties": {
+    "no":390,
+    "area":"鶯歌區",
+    "name":"公兒一公園",
+    "address":"新北市鶯歌區鶯桃路182巷32號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3427262,24.9614967 ]
+    },
+    "properties": {
+    "no":391,
+    "area":"鶯歌區",
+    "name":"公兒五公園",
+    "address":"新北市鶯歌區公園街11號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3600887,24.9547971 ]
+    },
+    "properties": {
+    "no":392,
+    "area":"鶯歌區",
+    "name":"新北市三鶯水資源回收中心",
+    "address":"鶯歌區館前路360號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3572636,24.9519194 ]
+    },
+    "properties": {
+    "no":393,
+    "area":"鶯歌區",
+    "name":"三鶯陶瓷公園",
+    "address":"121°21'4.93E24°56'14.23N"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3483645,24.9401516 ]
+    },
+    "properties": {
+    "no":394,
+    "area":"鶯歌區",
+    "name":"南靖陶藝河濱公園",
+    "address":"121°20'473E24°56'9.42N"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3427262,24.9614967 ]
+    },
+    "properties": {
+    "no":395,
+    "area":"鶯歌區",
+    "name":"三鶯運動公園",
+    "address":"121°21'1.29E24°56'7.19N"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3554841,24.9312529 ]
+    },
+    "properties": {
+    "no":396,
+    "area":"鶯歌區",
+    "name":"鳶山公園",
+    "address":"121°21'18.79E24°55'52.65N"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6022352,25.0039782 ]
+    },
+    "properties": {
+    "no":397,
+    "area":"深坑區",
+    "name":"萬福生態公園",
+    "address":"新北市北深路3段158巷內"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6169002,25.0033792 ]
+    },
+    "properties": {
+    "no":398,
+    "area":"深坑區",
+    "name":"兒童遊戲場",
+    "address":"新北市深坑區平埔街"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.8203409,25.1087559 ]
+    },
+    "properties": {
+    "no":399,
+    "area":"瑞芳區",
+    "name":"瑞芳公園",
+    "address":"瑞芳區明燈路一段175號對面"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.822098,25.103052 ]
+    },
+    "properties": {
+    "no":400,
+    "area":"瑞芳區",
+    "name":"吉安兒童公園",
+    "address":"瑞芳區大埔路108-6號對面"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.76303,25.1027431 ]
+    },
+    "properties": {
+    "no":401,
+    "area":"瑞芳區",
+    "name":"吉慶公園",
+    "address":"瑞芳區中央路49巷"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.822098,25.103052 ]
+    },
+    "properties": {
+    "no":402,
+    "area":"瑞芳區",
+    "name":"安德公園",
+    "address":"瑞芳區中山路266號旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.8094568,25.1323166 ]
+    },
+    "properties": {
+    "no":403,
+    "area":"瑞芳區",
+    "name":"萬善堂公園",
+    "address":"瑞芳區台2線71.5k旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.8321152,25.126318 ]
+    },
+    "properties": {
+    "no":404,
+    "area":"瑞芳區",
+    "name":"蝙蝠洞公園",
+    "address":"瑞芳區台2線75k旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.8289991,25.1205514 ]
+    },
+    "properties": {
+    "no":405,
+    "area":"瑞芳區",
+    "name":"濱二路公園",
+    "address":"瑞芳區濱二路71-1號旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.8082426,25.1076204 ]
+    },
+    "properties": {
+    "no":406,
+    "area":"瑞芳區",
+    "name":"區民廣場",
+    "address":"瑞芳區明燈路三段25號旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3881378,25.0790108 ]
+    },
+    "properties": {
+    "no":407,
+    "area":"林口區",
+    "name":"婦幼公園(公5)",
+    "address":"文化一路一段與仁愛一路口對面"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3683352,25.073243 ]
+    },
+    "properties": {
+    "no":408,
+    "area":"林口區",
+    "name":"扶輪公園(公13)",
+    "address":"文化二路與忠孝路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3595316,25.077317 ]
+    },
+    "properties": {
+    "no":409,
+    "area":"林口區",
+    "name":"大崙公園(公鄰1)",
+    "address":"南勢二街412號對面"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.357277,25.070185 ]
+    },
+    "properties": {
+    "no":410,
+    "area":"林口區",
+    "name":"南勢公園(公鄰2)",
+    "address":"南勢二街與忠孝一路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3558769,25.0700242 ]
+    },
+    "properties": {
+    "no":411,
+    "area":"林口區",
+    "name":"井泉公園(公鄰3)",
+    "address":"南勢二街72號對面"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3793869,25.0911529 ]
+    },
+    "properties": {
+    "no":412,
+    "area":"林口區",
+    "name":"松柏公園(公鄰7)",
+    "address":"松柏路78號旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3755014,25.0874229 ]
+    },
+    "properties": {
+    "no":413,
+    "area":"林口區",
+    "name":"文林公園(公鄰8)",
+    "address":"文林二街與文林三街口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3741754,25.0843215 ]
+    },
+    "properties": {
+    "no":414,
+    "area":"林口區",
+    "name":"湖南公園(公鄰9)",
+    "address":"民權路165號 "
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3723161,25.0815311 ]
+    },
+    "properties": {
+    "no":415,
+    "area":"林口區",
+    "name":"翰林公園(公鄰10)",
+    "address":"民權路101號(頭湖國小)旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.368961,25.0779813 ]
+    },
+    "properties": {
+    "no":416,
+    "area":"林口區",
+    "name":"力行公園(公鄰11)",
+    "address":"民族路與文化北路526巷口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3673208,25.0762092 ]
+    },
+    "properties": {
+    "no":417,
+    "area":"林口區",
+    "name":"立德公園(公鄰12)",
+    "address":"民族路與仁愛二路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3624721,25.0731732 ]
+    },
+    "properties": {
+    "no":418,
+    "area":"林口區",
+    "name":"立言公園(公鄰13)",
+    "address":"忠孝一路與三民路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3583623,25.0676614 ]
+    },
+    "properties": {
+    "no":419,
+    "area":"林口區",
+    "name":"立功公園(公鄰14)",
+    "address":"三民路75號旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3843812,25.0882341 ]
+    },
+    "properties": {
+    "no":420,
+    "area":"林口區",
+    "name":"宗北公園(公鄰21)",
+    "address":"民享路406號對面"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3828283,25.0838859 ]
+    },
+    "properties": {
+    "no":421,
+    "area":"林口區",
+    "name":"一品公園(公鄰22)",
+    "address":"中北三街與中華一路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3881378,25.0790108 ]
+    },
+    "properties": {
+    "no":422,
+    "area":"林口區",
+    "name":"小熊公園",
+    "address":"文化一路、仁愛路、公園路、仁愛一路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3678326,25.0688143 ]
+    },
+    "properties": {
+    "no":423,
+    "area":"林口區",
+    "name":"麗林福德公園(公鄰24)",
+    "address":"公園路46號(麗林國小)旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3809,25.0752581 ]
+    },
+    "properties": {
+    "no":424,
+    "area":"林口區",
+    "name":"四維公園(公鄰29)",
+    "address":"四維路與佳林路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.373386,25.0693387 ]
+    },
+    "properties": {
+    "no":425,
+    "area":"林口區",
+    "name":"麗園公園(公鄰30)",
+    "address":"麗園路60號對面"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3881378,25.0790108 ]
+    },
+    "properties": {
+    "no":426,
+    "area":"林口區",
+    "name":"公鄰31",
+    "address":"忠孝路616巷26號(區立游泳池)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3881378,25.0790108 ]
+    },
+    "properties": {
+    "no":427,
+    "area":"林口區",
+    "name":"東湖公園(公鄰32)",
+    "address":"東湖路75巷與東湖一街口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3879944,25.0752355 ]
+    },
+    "properties": {
+    "no":428,
+    "area":"林口區",
+    "name":"隆林公園(公鄰33)",
+    "address":"隆林街36號對面"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3903428,25.0722918 ]
+    },
+    "properties": {
+    "no":429,
+    "area":"林口區",
+    "name":"東明公園(公鄰34)",
+    "address":"興林路221巷與東明一街98巷口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3967586,25.0746281 ]
+    },
+    "properties": {
+    "no":430,
+    "area":"林口區",
+    "name":"仁愛公園(公鄰35)",
+    "address":"仁愛路一段211巷111號對面(文小18旁)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3969295,25.0703522 ]
+    },
+    "properties": {
+    "no":431,
+    "area":"林口區",
+    "name":"新寮公園(公鄰36)",
+    "address":"仁愛路一段83巷與123巷間"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3881378,25.0790108 ]
+    },
+    "properties": {
+    "no":432,
+    "area":"林口區",
+    "name":"公鄰43",
+    "address":"粉療28-1號東林托兒所下方"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3881378,25.0790108 ]
+    },
+    "properties": {
+    "no":433,
+    "area":"林口區",
+    "name":"公鄰45",
+    "address":"中山路與橫窠雅路口(銅雕公園)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3881378,25.0790108 ]
+    },
+    "properties": {
+    "no":434,
+    "area":"林口區",
+    "name":"公鄰46",
+    "address":"粉療28-1號(東林托兒所)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3768549,25.0669032 ]
+    },
+    "properties": {
+    "no":435,
+    "area":"林口區",
+    "name":"樂活公園",
+    "address":"文化一路一段20號(崇林國中)旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3578096,25.076256 ]
+    },
+    "properties": {
+    "no":436,
+    "area":"林口區",
+    "name":"興林公園",
+    "address":"興林一街109巷(高地仰哲社區對面)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3749802,25.0746508 ]
+    },
+    "properties": {
+    "no":437,
+    "area":"林口區",
+    "name":"林口社區運動公園",
+    "address":"文化一路、仁愛路、公園路、仁愛一路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3971716,25.0781067 ]
+    },
+    "properties": {
+    "no":438,
+    "area":"林口區",
+    "name":"自強公園",
+    "address":"粉寮路一段與中山路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3776538,25.0822338 ]
+    },
+    "properties": {
+    "no":439,
+    "area":"林口區",
+    "name":"富貴森林公園",
+    "address":"新北市林口區富貴路內"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3931171,25.0782564 ]
+    },
+    "properties": {
+    "no":440,
+    "area":"林口區",
+    "name":"樹林口公園",
+    "address":"中山路與中原路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3894737,25.0768048 ]
+    },
+    "properties": {
+    "no":441,
+    "area":"林口區",
+    "name":"興林口公園",
+    "address":"仁愛路一段林口區公所旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.39,25.083401 ]
+    },
+    "properties": {
+    "no":442,
+    "area":"林口區",
+    "name":"竹林寺公園",
+    "address":"竹林路"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3699096,25.0713392 ]
+    },
+    "properties": {
+    "no":443,
+    "area":"林口區",
+    "name":"仁愛籃球場(廣1)",
+    "address":"忠孝路與公園路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3881378,25.0790108 ]
+    },
+    "properties": {
+    "no":444,
+    "area":"林口區",
+    "name":"麗園籃球場(廣2)",
+    "address":"忠孝路與忠孝路542巷口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3688835,25.0727312 ]
+    },
+    "properties": {
+    "no":445,
+    "area":"林口區",
+    "name":"東勢籃球場(廣3)",
+    "address":"忠孝路與忠孝路622巷口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4022216,25.0138375 ]
+    },
+    "properties": {
+    "no":446,
+    "area":"樹林區",
+    "name":"中山公園",
+    "address":"龍興街59巷11號前"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4146724,25.0063705 ]
+    },
+    "properties": {
+    "no":447,
+    "area":"樹林區",
+    "name":"三多公園",
+    "address":"三龍街14巷20號旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4182962,24.9958065 ]
+    },
+    "properties": {
+    "no":448,
+    "area":"樹林區",
+    "name":"潭底公園",
+    "address":"保安街1段285號（樹林戶政事務所旁）"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4197085,24.9833633 ]
+    },
+    "properties": {
+    "no":449,
+    "area":"樹林區",
+    "name":"大同公園",
+    "address":"太平路33巷8號（太平路33巷10號旁）"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4273973,24.979718 ]
+    },
+    "properties": {
+    "no":450,
+    "area":"樹林區",
+    "name":"長壽親子公園",
+    "address":"樹德街、復興路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4126554,24.9819694 ]
+    },
+    "properties": {
+    "no":451,
+    "area":"樹林區",
+    "name":"鎮前親子公園",
+    "address":"鎮前街、東陽街口（東陽街1號旁）"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4285049,24.9930719 ]
+    },
+    "properties": {
+    "no":452,
+    "area":"樹林區",
+    "name":"民生公園",
+    "address":"保安市場旁（保安街1段與保安街1段14巷口）"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4273973,24.979718 ]
+    },
+    "properties": {
+    "no":453,
+    "area":"樹林區",
+    "name":"和平親子公園",
+    "address":"樹中街底"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3937325,24.9715727 ]
+    },
+    "properties": {
+    "no":454,
+    "area":"樹林區",
+    "name":"山仔腳公園",
+    "address":"樹林地政事務所旁（地政街8巷10弄2號前）"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4002718,24.9612044 ]
+    },
+    "properties": {
+    "no":455,
+    "area":"樹林區",
+    "name":"民權公園",
+    "address":"民權街68號旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4139875,25.0051319 ]
+    },
+    "properties": {
+    "no":456,
+    "area":"樹林區",
+    "name":"光華公園",
+    "address":"保安街2段三多國中旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3826612,24.9459607 ]
+    },
+    "properties": {
+    "no":457,
+    "area":"樹林區",
+    "name":"兒三公園",
+    "address":"大成路、學成路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4273973,24.979718 ]
+    },
+    "properties": {
+    "no":458,
+    "area":"樹林區",
+    "name":"景觀公園",
+    "address":"佳園路3段、學府路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4128578,25.0069039 ]
+    },
+    "properties": {
+    "no":459,
+    "area":"樹林區",
+    "name":"寮公園",
+    "address":"保安街2段、寮街口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3801408,24.9480201 ]
+    },
+    "properties": {
+    "no":460,
+    "area":"樹林區",
+    "name":"森林公園",
+    "address":"學勤路、大雅路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3960401,24.9717074 ]
+    },
+    "properties": {
+    "no":461,
+    "area":"樹林區",
+    "name":"鹿角溪公園",
+    "address":"中山路3段129-6號右側"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4164463,24.98102 ]
+    },
+    "properties": {
+    "no":462,
+    "area":"樹林區",
+    "name":"太元公園",
+    "address":"太元街2巷（東華街101號對面）"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3948678,24.9730398 ]
+    },
+    "properties": {
+    "no":463,
+    "area":"樹林區",
+    "name":"山佳鐵道公園",
+    "address":"中山路3段、山佳街口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.414824,24.9847232 ]
+    },
+    "properties": {
+    "no":464,
+    "area":"樹林區",
+    "name":"東昇公園",
+    "address":"復興路406巷對面"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4198606,24.9815605 ]
+    },
+    "properties": {
+    "no":465,
+    "area":"樹林區",
+    "name":"新北綠家園專案",
+    "address":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4235817,24.9911783 ]
+    },
+    "properties": {
+    "no":466,
+    "area":"樹林區",
+    "name":"樹林後站廣場",
+    "address":"後站街"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3925439,24.9727283 ]
+    },
+    "properties": {
+    "no":467,
+    "area":"樹林區",
+    "name":"山佳車站廣場",
+    "address":"中山路三段、佳園路一段口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4244425,25.0022219 ]
+    },
+    "properties": {
+    "no":468,
+    "area":"樹林區",
+    "name":"中正路橋下廣場",
+    "address":"千歲街中正陸橋下（中正路21-1號對面）"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4204043,24.972775 ]
+    },
+    "properties": {
+    "no":469,
+    "area":"樹林區",
+    "name":"鹿角溪溼地公園",
+    "address":"樹林地區環河道路旁，近原住民主題部落公園"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4270887,24.9794219 ]
+    },
+    "properties": {
+    "no":470,
+    "area":"樹林區",
+    "name":"樹林體育園區",
+    "address":"新北市樹林區水源街81號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4094575,25.0133323 ]
+    },
+    "properties": {
+    "no":471,
+    "area":"樹林區",
+    "name":"忠靈祠(武器公園)",
+    "address":"新北市樹林區忠義街25號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3873953,24.9666833 ]
+    },
+    "properties": {
+    "no":472,
+    "area":"樹林區",
+    "name":"樹林環保河濱公園",
+    "address":"121°24'45.62E24°58'11.74N"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3900238,24.9676057 ]
+    },
+    "properties": {
+    "no":473,
+    "area":"樹林區",
+    "name":"柑園河濱公園",
+    "address":"121°23'19.20E24°58'2.81N"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4598776,24.9827191 ]
+    },
+    "properties": {
+    "no":474,
+    "area":"土城區",
+    "name":"雲溪廣場",
+    "address":"青雲路183巷2號旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4640742,24.9871942 ]
+    },
+    "properties": {
+    "no":475,
+    "area":"土城區",
+    "name":"延和廣場",
+    "address":"延和路12巷"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4645021,24.9804154 ]
+    },
+    "properties": {
+    "no":476,
+    "area":"土城區",
+    "name":"百喬廣場",
+    "address":"明德路一段70巷內"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4693544,24.9916238 ]
+    },
+    "properties": {
+    "no":477,
+    "area":"土城區",
+    "name":"延壽親子廣場",
+    "address":"延壽路75巷27弄旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4495241,24.9923154 ]
+    },
+    "properties": {
+    "no":478,
+    "area":"土城區",
+    "name":"希望之河",
+    "address":"裕民路裕生路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4593122,24.9776701 ]
+    },
+    "properties": {
+    "no":479,
+    "area":"土城區",
+    "name":"青山廣場",
+    "address":"青雲、明德路交叉口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.462976,24.9841322 ]
+    },
+    "properties": {
+    "no":480,
+    "area":"土城區",
+    "name":"清水社區公園",
+    "address":"清水路延吉街交叉口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.460406,24.980492 ]
+    },
+    "properties": {
+    "no":481,
+    "area":"土城區",
+    "name":"仁愛公園",
+    "address":"仁愛路16號旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4625245,24.9823476 ]
+    },
+    "properties": {
+    "no":482,
+    "area":"土城區",
+    "name":"永豐社區公園",
+    "address":"清水路278巷28弄內"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4604962,24.9838716 ]
+    },
+    "properties": {
+    "no":483,
+    "area":"土城區",
+    "name":"立雲廣場",
+    "address":"清水路235巷"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4593122,24.9776701 ]
+    },
+    "properties": {
+    "no":484,
+    "area":"土城區",
+    "name":"青雲廣場",
+    "address":"家樂福後方"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4663531,24.9809042 ]
+    },
+    "properties": {
+    "no":485,
+    "area":"土城區",
+    "name":"大清水公園",
+    "address":"清水高中對面"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4612869,24.9775353 ]
+    },
+    "properties": {
+    "no":486,
+    "area":"土城區",
+    "name":"清和社區公園",
+    "address":"明德路一段青山路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4688616,24.9897267 ]
+    },
+    "properties": {
+    "no":487,
+    "area":"土城區",
+    "name":"延和社區公園",
+    "address":"延和路250巷(延和段49地號)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4643331,24.9781506 ]
+    },
+    "properties": {
+    "no":488,
+    "area":"土城區",
+    "name":"青山公園",
+    "address":"明德路一段195巷底"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4434689,24.9742659 ]
+    },
+    "properties": {
+    "no":489,
+    "area":"土城區",
+    "name":"仁德公園",
+    "address":"金城路一段127巷"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.444424,24.97355 ]
+    },
+    "properties": {
+    "no":490,
+    "area":"土城區",
+    "name":"金城公園",
+    "address":"金城路一段127巷"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4537002,24.9852958 ]
+    },
+    "properties": {
+    "no":491,
+    "area":"土城區",
+    "name":"裕民廣場",
+    "address":"裕民路171巷4號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4572997,24.9825346 ]
+    },
+    "properties": {
+    "no":492,
+    "area":"土城區",
+    "name":"柑林廣場",
+    "address":"金城路二段242巷內"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.443386,24.9779064 ]
+    },
+    "properties": {
+    "no":493,
+    "area":"土城區",
+    "name":"員林社區公園",
+    "address":"員林街12巷對面"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.438765,24.980298 ]
+    },
+    "properties": {
+    "no":494,
+    "area":"土城區",
+    "name":"員福社區公園",
+    "address":"員福街員福橋旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4688616,24.9897267 ]
+    },
+    "properties": {
+    "no":495,
+    "area":"土城區",
+    "name":"員仁社區公園",
+    "address":"福仁街與慶利街交叉口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4484035,24.987829 ]
+    },
+    "properties": {
+    "no":496,
+    "area":"土城區",
+    "name":"裕生廣場",
+    "address":"裕生路裕生停車場旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4406475,24.9697148 ]
+    },
+    "properties": {
+    "no":497,
+    "area":"土城區",
+    "name":"大墓公公園",
+    "address":"金城路一段千歲路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4511998,24.9879679 ]
+    },
+    "properties": {
+    "no":498,
+    "area":"土城區",
+    "name":"學成社區公園",
+    "address":"學成路91巷旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.44186,24.9831817 ]
+    },
+    "properties": {
+    "no":499,
+    "area":"土城區",
+    "name":"日和公園",
+    "address":"中華路一段229號旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.438034,24.968371 ]
+    },
+    "properties": {
+    "no":500,
+    "area":"土城區",
+    "name":"沛陂公園",
+    "address":"民族路22巷5號旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4144635,24.9539078 ]
+    },
+    "properties": {
+    "no":501,
+    "area":"土城區",
+    "name":"頂新公園",
+    "address":"頂埔國小後方"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4390844,24.9659324 ]
+    },
+    "properties": {
+    "no":502,
+    "area":"土城區",
+    "name":"頂福活動中心對面小公園",
+    "address":"中州路頂福活動中心對面"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4105615,24.9521805 ]
+    },
+    "properties": {
+    "no":503,
+    "area":"土城區",
+    "name":"祖田兒童遊戲公園",
+    "address":"溪頭路81號旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4443312,24.9586907 ]
+    },
+    "properties": {
+    "no":504,
+    "area":"土城區",
+    "name":"桐花公園",
+    "address":"承天路153號旁(清濂茶館承天路149號旁)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4304154,24.9622718 ]
+    },
+    "properties": {
+    "no":505,
+    "area":"土城區",
+    "name":"永寧廣場",
+    "address":"土城國中對面"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4296317,24.9529521 ]
+    },
+    "properties": {
+    "no":506,
+    "area":"土城區",
+    "name":"原住民生態公園",
+    "address":"永寧路底"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4183936,24.9576859 ]
+    },
+    "properties": {
+    "no":507,
+    "area":"土城區",
+    "name":"頂埔永福公園",
+    "address":"頂埔祖師廟後方"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4390655,24.9659244 ]
+    },
+    "properties": {
+    "no":508,
+    "area":"土城區",
+    "name":"承安公園",
+    "address":"忠承路55號對面"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.438034,24.968371 ]
+    },
+    "properties": {
+    "no":509,
+    "area":"土城區",
+    "name":"捷運公園廣場(代管)",
+    "address":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4489211,24.9925372 ]
+    },
+    "properties": {
+    "no":510,
+    "area":"土城區",
+    "name":"線形公園(捷運機場)",
+    "address":"中央路一段與板橋市交界"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.448212,24.9884178 ]
+    },
+    "properties": {
+    "no":511,
+    "area":"土城區",
+    "name":"海山捷運廣場",
+    "address":"樂利街16號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.436508,24.967277 ]
+    },
+    "properties": {
+    "no":512,
+    "area":"土城區",
+    "name":"永寧捷運廣場",
+    "address":"中央路三段與承天路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.438034,24.968371 ]
+    },
+    "properties": {
+    "no":513,
+    "area":"土城區",
+    "name":"公兒18",
+    "address":"斬龍二街與學士路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.438034,24.968371 ]
+    },
+    "properties": {
+    "no":514,
+    "area":"土城區",
+    "name":"公7",
+    "address":"斬龍一街與學士路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.438034,24.968371 ]
+    },
+    "properties": {
+    "no":515,
+    "area":"土城區",
+    "name":"公兒16",
+    "address":"學土路至學府路二段"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.438034,24.968371 ]
+    },
+    "properties": {
+    "no":516,
+    "area":"土城區",
+    "name":"公兒17",
+    "address":"斬龍二街與學府路二段口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.438034,24.968371 ]
+    },
+    "properties": {
+    "no":517,
+    "area":"土城區",
+    "name":"公兒22",
+    "address":"斬龍一街與金城路二段口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.438034,24.968371 ]
+    },
+    "properties": {
+    "no":518,
+    "area":"土城區",
+    "name":"綠三",
+    "address":"金城路二段土城醫院對面"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.438034,24.968371 ]
+    },
+    "properties": {
+    "no":519,
+    "area":"土城區",
+    "name":"公兒19",
+    "address":"青仁路與青隆街口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.438034,24.968371 ]
+    },
+    "properties": {
+    "no":520,
+    "area":"土城區",
+    "name":"公9",
+    "address":"青仁路與青隆街口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.438034,24.968371 ]
+    },
+    "properties": {
+    "no":521,
+    "area":"土城區",
+    "name":"公兒20",
+    "address":"青和街與明德路二段口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.438034,24.968371 ]
+    },
+    "properties": {
+    "no":522,
+    "area":"土城區",
+    "name":"綠地兼排水溝使用",
+    "address":"青和街高速公路下方"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4426133,24.9790508 ]
+    },
+    "properties": {
+    "no":523,
+    "area":"土城區",
+    "name":"員和公園",
+    "address":"中央路二段61巷旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4447718,24.9830093 ]
+    },
+    "properties": {
+    "no":524,
+    "area":"土城區",
+    "name":"中央公園",
+    "address":"中央路一段325-1號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4480438,24.9813401 ]
+    },
+    "properties": {
+    "no":525,
+    "area":"土城區",
+    "name":"惜福公園",
+    "address":"莊園街與學府路二段交叉口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4491352,24.9853852 ]
+    },
+    "properties": {
+    "no":526,
+    "area":"土城區",
+    "name":"莊園兒童遊戲場",
+    "address":"莊園街旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4658691,24.9894477 ]
+    },
+    "properties": {
+    "no":527,
+    "area":"土城區",
+    "name":"永富廣場",
+    "address":"明德路一段69巷內"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.438034,24.968371 ]
+    },
+    "properties": {
+    "no":528,
+    "area":"土城區",
+    "name":"公兒15",
+    "address":"興城路土城國小後側門"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4554859,24.9835785 ]
+    },
+    "properties": {
+    "no":529,
+    "area":"土城區",
+    "name":"幸福公園",
+    "address":"金城路二段245巷60弄旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4203736,24.9666793 ]
+    },
+    "properties": {
+    "no":530,
+    "area":"土城區",
+    "name":"土城馬祖田運動公園",
+    "address":"121°25'108E24°57'596N"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4111764,24.9582349 ]
+    },
+    "properties": {
+    "no":531,
+    "area":"土城區",
+    "name":"土城環保公園",
+    "address":"121°24'45.27E24°57'52.12N"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4219573,25.0214149 ]
+    },
+    "properties": {
+    "no":532,
+    "area":"新莊區",
+    "name":"四維公園",
+    "address":"四維路186巷旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.416709,25.0217412 ]
+    },
+    "properties": {
+    "no":533,
+    "area":"新莊區",
+    "name":"龍鳳公園",
+    "address":"龍安路丹鳳國中對面"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4198142,25.0194278 ]
+    },
+    "properties": {
+    "no":534,
+    "area":"新莊區",
+    "name":"萬安公園",
+    "address":"龍安路富裕橋頭"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4287435,25.0257985 ]
+    },
+    "properties": {
+    "no":535,
+    "area":"新莊區",
+    "name":"後港公園",
+    "address":"建安街26巷4號旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4204365,25.0262684 ]
+    },
+    "properties": {
+    "no":536,
+    "area":"新莊區",
+    "name":"富國公園",
+    "address":"富國路與福營路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4111463,25.0200252 ]
+    },
+    "properties": {
+    "no":537,
+    "area":"新莊區",
+    "name":"龍福公園",
+    "address":"中正路929巷23號對面"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4300324,25.0278943 ]
+    },
+    "properties": {
+    "no":538,
+    "area":"新莊區",
+    "name":"雙福公園",
+    "address":"後港一路(後港抽水站旁)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4243473,25.0260484 ]
+    },
+    "properties": {
+    "no":539,
+    "area":"新莊區",
+    "name":"後港新公園",
+    "address":"後港一路與民安路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4303953,25.0253701 ]
+    },
+    "properties": {
+    "no":540,
+    "area":"新莊區",
+    "name":"建安公園",
+    "address":"後港一路130巷底"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4247132,25.0274428 ]
+    },
+    "properties": {
+    "no":541,
+    "area":"新莊區",
+    "name":"後德公園",
+    "address":"後港一路49巷底"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.426913,25.0278449 ]
+    },
+    "properties": {
+    "no":542,
+    "area":"新莊區",
+    "name":"建福公園",
+    "address":"建福路49巷底"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4136665,25.0269327 ]
+    },
+    "properties": {
+    "no":543,
+    "area":"新莊區",
+    "name":"雙鳳公園",
+    "address":"鳳山街56巷旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4274934,25.017298 ]
+    },
+    "properties": {
+    "no":544,
+    "area":"新莊區",
+    "name":"西盛公園",
+    "address":"龍安路與西盛街口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4453199,25.0375083 ]
+    },
+    "properties": {
+    "no":545,
+    "area":"新莊區",
+    "name":"新泰公園",
+    "address":"公園一路112號旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4372703,25.0324691 ]
+    },
+    "properties": {
+    "no":546,
+    "area":"新莊區",
+    "name":"福營公園",
+    "address":"福營路29號旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4429173,25.0293415 ]
+    },
+    "properties": {
+    "no":547,
+    "area":"新莊區",
+    "name":"瓊泰公園",
+    "address":"瓊泰路瓊泰橋旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4330224,25.0033413 ]
+    },
+    "properties": {
+    "no":548,
+    "area":"新莊區",
+    "name":"新樹公園",
+    "address":"新樹路647號對面"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4437941,25.0297086 ]
+    },
+    "properties": {
+    "no":549,
+    "area":"新莊區",
+    "name":"瓊泰河濱公園",
+    "address":"瓊泰路94巷17號旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4425756,25.0455173 ]
+    },
+    "properties": {
+    "no":550,
+    "area":"新莊區",
+    "name":"新泰綠地",
+    "address":"中環路與新泰路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.431485,25.000894 ]
+    },
+    "properties": {
+    "no":551,
+    "area":"新莊區",
+    "name":"西盛廣場",
+    "address":"新莊區樹新路277巷中華郵政對面"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.442396,25.0269924 ]
+    },
+    "properties": {
+    "no":552,
+    "area":"新莊區",
+    "name":"瓊林公園",
+    "address":"瓊林路104巷頭，台65橋下"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4435604,25.0299965 ]
+    },
+    "properties": {
+    "no":553,
+    "area":"新莊區",
+    "name":"快樂公園",
+    "address":"瓊泰路103號對面"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4477886,25.0298342 ]
+    },
+    "properties": {
+    "no":554,
+    "area":"新莊區",
+    "name":"環河三角綠地",
+    "address":"新莊區瓊林路與環河路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4178347,25.0265985 ]
+    },
+    "properties": {
+    "no":555,
+    "area":"新莊區",
+    "name":"萬善公園",
+    "address":"瓊林南路301巷內"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.39923,25.040765 ]
+    },
+    "properties": {
+    "no":556,
+    "area":"新莊區",
+    "name":"水源地",
+    "address":"新莊區壽山路115號斜對面"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.409753,25.0309353 ]
+    },
+    "properties": {
+    "no":557,
+    "area":"新莊區",
+    "name":"青年公園",
+    "address":"新莊區壽山路61號對面"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4165995,25.0307996 ]
+    },
+    "properties": {
+    "no":558,
+    "area":"新莊區",
+    "name":"生命紀念公園",
+    "address":"壽山路162之1號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4608406,25.064948 ]
+    },
+    "properties": {
+    "no":559,
+    "area":"新莊區",
+    "name":"興化公園",
+    "address":"五工二路興化國小旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4572449,25.0518684 ]
+    },
+    "properties": {
+    "no":560,
+    "area":"新莊區",
+    "name":"福壽公園",
+    "address":"福壽街昌明街路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.455883,25.047066 ]
+    },
+    "properties": {
+    "no":561,
+    "area":"新莊區",
+    "name":"思賢公園",
+    "address":"自由街自信街路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4572301,25.0374499 ]
+    },
+    "properties": {
+    "no":562,
+    "area":"新莊區",
+    "name":"新莊公園",
+    "address":"中正路84號對面"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4445183,25.0364215 ]
+    },
+    "properties": {
+    "no":563,
+    "area":"新莊區",
+    "name":"文德社區公園",
+    "address":"思明街口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4541693,25.0340046 ]
+    },
+    "properties": {
+    "no":564,
+    "area":"新莊區",
+    "name":"榮和公園",
+    "address":"環河路新海橋下"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4498933,25.0321453 ]
+    },
+    "properties": {
+    "no":565,
+    "area":"新莊區",
+    "name":"碧江公園",
+    "address":"新泰路瓊林路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4513563,25.0329685 ]
+    },
+    "properties": {
+    "no":566,
+    "area":"新莊區",
+    "name":"興漢公園",
+    "address":"碧江街82號慈惠堂前"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4522229,25.0393264 ]
+    },
+    "properties": {
+    "no":567,
+    "area":"新莊區",
+    "name":"榮和綠地",
+    "address":"景德路83號旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.45662,25.04246 ]
+    },
+    "properties": {
+    "no":568,
+    "area":"新莊區",
+    "name":"長青公園",
+    "address":"博愛路與長青街口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.453,25.0439 ]
+    },
+    "properties": {
+    "no":569,
+    "area":"新莊區",
+    "name":"中港三角公園",
+    "address":"中華路與復興路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4446359,25.0426451 ]
+    },
+    "properties": {
+    "no":570,
+    "area":"新莊區",
+    "name":"新泰三角公園",
+    "address":"新泰路與中平路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4483699,25.0524484 ]
+    },
+    "properties": {
+    "no":571,
+    "area":"新莊區",
+    "name":"黃城公園",
+    "address":"中榮街與中信街口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4432483,25.0471281 ]
+    },
+    "properties": {
+    "no":572,
+    "area":"新莊區",
+    "name":"中平公園",
+    "address":"中平路文藝中心後方及新泰游泳池側邊"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.445568,25.044954 ]
+    },
+    "properties": {
+    "no":573,
+    "area":"新莊區",
+    "name":"中港公園",
+    "address":"中平路82巷22號對面"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4583005,25.0580391 ]
+    },
+    "properties": {
+    "no":574,
+    "area":"新莊區",
+    "name":"昌平公園",
+    "address":"新莊區富貴路、福壽街口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.462797,25.051126 ]
+    },
+    "properties": {
+    "no":575,
+    "area":"新莊區",
+    "name":"頭前運動公園",
+    "address":"新莊區頭前路、頭成街口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4611509,25.0584259 ]
+    },
+    "properties": {
+    "no":576,
+    "area":"新莊區",
+    "name":"福基公園",
+    "address":"新莊區福美街、福德三街口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4611498,25.055468 ]
+    },
+    "properties": {
+    "no":577,
+    "area":"新莊區",
+    "name":"福美公園",
+    "address":"新莊區福美街、福德一街口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.461865,25.0476433 ]
+    },
+    "properties": {
+    "no":578,
+    "area":"新莊區",
+    "name":"化成公園",
+    "address":"新莊區頭成街/思源路128巷"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4178347,25.0265985 ]
+    },
+    "properties": {
+    "no":579,
+    "area":"新莊區",
+    "name":"愛鳥公園",
+    "address":"新莊區新北大道五工六路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4178347,25.0265985 ]
+    },
+    "properties": {
+    "no":580,
+    "area":"新莊區",
+    "name":"福智1號廣場",
+    "address":"五工六路、福慧路"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4178347,25.0265985 ]
+    },
+    "properties": {
+    "no":581,
+    "area":"新莊區",
+    "name":"福智公園",
+    "address":"新北大道三段、五工六路"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4559683,25.0616163 ]
+    },
+    "properties": {
+    "no":582,
+    "area":"新莊區",
+    "name":"福慧都會公園",
+    "address":"福慧路"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4622886,25.0627435 ]
+    },
+    "properties": {
+    "no":583,
+    "area":"新莊區",
+    "name":"福聚公園",
+    "address":"新知路"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4640971,25.0633915 ]
+    },
+    "properties": {
+    "no":584,
+    "area":"新莊區",
+    "name":"福祿1號公園",
+    "address":"新知路、化成路507巷"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4178347,25.0265985 ]
+    },
+    "properties": {
+    "no":585,
+    "area":"新莊區",
+    "name":"福祿2號公園",
+    "address":"福慧路、新知一路"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4178347,25.0265985 ]
+    },
+    "properties": {
+    "no":586,
+    "area":"新莊區",
+    "name":"福祿3號公園",
+    "address":"福慧路"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4178347,25.0265985 ]
+    },
+    "properties": {
+    "no":587,
+    "area":"新莊區",
+    "name":"福祿4號公園",
+    "address":"化成路、福慧路"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4178347,25.0265985 ]
+    },
+    "properties": {
+    "no":588,
+    "area":"新莊區",
+    "name":"福祿5號公園",
+    "address":"化成路、福慧路"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4178347,25.0265985 ]
+    },
+    "properties": {
+    "no":589,
+    "area":"新莊區",
+    "name":"福智2號廣場",
+    "address":"新知三路、新知五路"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4178347,25.0265985 ]
+    },
+    "properties": {
+    "no":590,
+    "area":"新莊區",
+    "name":"福智3號廣場",
+    "address":"新知二路"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4577176,25.0633498 ]
+    },
+    "properties": {
+    "no":591,
+    "area":"新莊區",
+    "name":"五工1號廣場",
+    "address":"福慧路、五工路"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.458862,25.0668089 ]
+    },
+    "properties": {
+    "no":592,
+    "area":"新莊區",
+    "name":"五工2號廣場",
+    "address":"福慧路、五工路"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4535175,25.0568057 ]
+    },
+    "properties": {
+    "no":593,
+    "area":"新莊區",
+    "name":"塭仔底公園(公兒二溼地)",
+    "address":"新北市新莊區昌平街200號處(中港大排副都心段，昌平國小旁)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4499279,25.0415241 ]
+    },
+    "properties": {
+    "no":594,
+    "area":"新莊區",
+    "name":"新莊體育園區",
+    "address":"新北市新莊區和興街66號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.444059,25.023685 ]
+    },
+    "properties": {
+    "no":595,
+    "area":"新莊區",
+    "name":"西盛環保河濱公園",
+    "address":"121°26'41.91E25° 1'32.40N"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4848449,25.0798984 ]
+    },
+    "properties": {
+    "no":596,
+    "area":"三重區",
+    "name":"慈生公園",
+    "address":"三和路四段191巷78號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.491252,25.0815262 ]
+    },
+    "properties": {
+    "no":597,
+    "area":"三重區",
+    "name":"慈祐公園",
+    "address":"仁愛街425巷9-1號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.488466,25.084486 ]
+    },
+    "properties": {
+    "no":598,
+    "area":"三重區",
+    "name":"慈化公園",
+    "address":"溪尾街327號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4846249,25.076046 ]
+    },
+    "properties": {
+    "no":599,
+    "area":"三重區",
+    "name":"永盛公園(公十八)",
+    "address":"車路頭街133號﹝義天宮旁﹞"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.478752,25.074447 ]
+    },
+    "properties": {
+    "no":600,
+    "area":"三重區",
+    "name":"永豐公園(遊八)",
+    "address":"永福街197巷6-1號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4939698,25.0841041 ]
+    },
+    "properties": {
+    "no":601,
+    "area":"三重區",
+    "name":"五華公園(遊一)",
+    "address":"仁義街228巷12號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4960035,25.080922 ]
+    },
+    "properties": {
+    "no":602,
+    "area":"三重區",
+    "name":"五常公園(遊二)",
+    "address":"五華街7巷30號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.481266,25.076747 ]
+    },
+    "properties": {
+    "no":603,
+    "area":"三重區",
+    "name":"永福公園(遊七)",
+    "address":"力行路二段162巷55號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4848222,25.0809032 ]
+    },
+    "properties": {
+    "no":604,
+    "area":"三重區",
+    "name":"慈愛公園(公十五)",
+    "address":"仁美街108巷13號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4872125,25.0836412 ]
+    },
+    "properties": {
+    "no":605,
+    "area":"三重區",
+    "name":"碧華公園",
+    "address":"溪尾街(東區圖書館對面)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4796271,25.0674369 ]
+    },
+    "properties": {
+    "no":606,
+    "area":"三重區",
+    "name":"福田公園(公二七)",
+    "address":"三民街261號對面"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.484244,25.060222 ]
+    },
+    "properties": {
+    "no":607,
+    "area":"三重區",
+    "name":"興華公園(公三二)",
+    "address":"中華路5號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4834988,25.0577875 ]
+    },
+    "properties": {
+    "no":608,
+    "area":"三重區",
+    "name":"重陽公園(公三三)",
+    "address":"重陽路1段60巷101號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4867114,25.0614534 ]
+    },
+    "properties": {
+    "no":609,
+    "area":"三重區",
+    "name":"重新公園",
+    "address":"重新路4段244巷口重新橋下"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.483911,25.0641085 ]
+    },
+    "properties": {
+    "no":610,
+    "area":"三重區",
+    "name":"聯邦公園 (公二九)",
+    "address":"中華路125號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4989775,25.0582393 ]
+    },
+    "properties": {
+    "no":611,
+    "area":"三重區",
+    "name":"光興公園",
+    "address":"正義南路62號之1旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5008182,25.0588525 ]
+    },
+    "properties": {
+    "no":612,
+    "area":"三重區",
+    "name":"公36同安公園",
+    "address":"正義南路、同安東街交叉口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5008182,25.0588525 ]
+    },
+    "properties": {
+    "no":613,
+    "area":"三重區",
+    "name":"公35同安公園",
+    "address":"文化南路、福德南路交叉口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4928704,25.0578998 ]
+    },
+    "properties": {
+    "no":614,
+    "area":"三重區",
+    "name":"菜寮公園 (公十三)",
+    "address":"中寮街57巷18號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4898783,25.0545061 ]
+    },
+    "properties": {
+    "no":615,
+    "area":"三重區",
+    "name":"玫瑰公園(公四五)",
+    "address":"集美街60號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4908403,25.0658983 ]
+    },
+    "properties": {
+    "no":616,
+    "area":"三重區",
+    "name":"大同公園(公九)",
+    "address":"大同北路186號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4985812,25.0649186 ]
+    },
+    "properties": {
+    "no":617,
+    "area":"三重區",
+    "name":"信義公園",
+    "address":"文化北路、信義西街交叉口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4948949,25.0633483 ]
+    },
+    "properties": {
+    "no":618,
+    "area":"三重區",
+    "name":"大智公園",
+    "address":"大同北路61號對面"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.48843,25.060232 ]
+    },
+    "properties": {
+    "no":619,
+    "area":"三重區",
+    "name":"過圳公園 (公十二)",
+    "address":"過圳街19號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5038918,25.065865 ]
+    },
+    "properties": {
+    "no":620,
+    "area":"三重區",
+    "name":"開元公園",
+    "address":"長元街65巷16弄16號對面"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4881012,25.0726311 ]
+    },
+    "properties": {
+    "no":621,
+    "area":"三重區",
+    "name":"大永德公園(公廿)",
+    "address":"自強路三段43巷23號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4896931,25.0722031 ]
+    },
+    "properties": {
+    "no":622,
+    "area":"三重區",
+    "name":"小永德公園",
+    "address":"忠孝路一段、大智街口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4858744,25.0727675 ]
+    },
+    "properties": {
+    "no":623,
+    "area":"三重區",
+    "name":"後竹圍公園",
+    "address":"自強路3段62巷25號對面"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4912491,25.0730266 ]
+    },
+    "properties": {
+    "no":624,
+    "area":"三重區",
+    "name":"厚德公園(公十九)",
+    "address":"忠孝路一段21巷"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4869414,25.0706769 ]
+    },
+    "properties": {
+    "no":625,
+    "area":"三重區",
+    "name":"二二八和平公園",
+    "address":"忠孝路2段35號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.485893,25.070974 ]
+    },
+    "properties": {
+    "no":626,
+    "area":"三重區",
+    "name":"小和平公園",
+    "address":"忠孝路2段35號對面"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4879684,25.0690632 ]
+    },
+    "properties": {
+    "no":627,
+    "area":"三重區",
+    "name":"六合公園",
+    "address":"自強路二段50巷"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.490245,25.070473 ]
+    },
+    "properties": {
+    "no":628,
+    "area":"三重區",
+    "name":"三張公園 (公廿二)",
+    "address":"大智街(重陽路四段忠孝路一段)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.494208,25.072536 ]
+    },
+    "properties": {
+    "no":629,
+    "area":"三重區",
+    "name":"介壽公園",
+    "address":"三和路三段〈高速公路匝道〉"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.497384,25.068553 ]
+    },
+    "properties": {
+    "no":630,
+    "area":"三重區",
+    "name":"正義公園",
+    "address":"雙園街、文化北路交叉口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4935608,25.0697689 ]
+    },
+    "properties": {
+    "no":631,
+    "area":"三重區",
+    "name":"六張公園",
+    "address":"六張街78號前"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.48284,25.065521 ]
+    },
+    "properties": {
+    "no":632,
+    "area":"三重區",
+    "name":"三民公園(公廿八)",
+    "address":"忠孝路3段40巷51號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5008907,25.0753472 ]
+    },
+    "properties": {
+    "no":633,
+    "area":"三重區",
+    "name":"三德公園",
+    "address":"仁昌街109號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5021627,25.0731149 ]
+    },
+    "properties": {
+    "no":634,
+    "area":"三重區",
+    "name":"龍濱公園(公三)",
+    "address":"秀江街28號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4981477,25.0730583 ]
+    },
+    "properties": {
+    "no":635,
+    "area":"三重區",
+    "name":"龍門公園(公二)",
+    "address":"仁福街40號前"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4922106,25.0607483 ]
+    },
+    "properties": {
+    "no":636,
+    "area":"三重區",
+    "name":"中山藝術公園",
+    "address":"新北大道、重新街交叉口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.490158,25.0908291 ]
+    },
+    "properties": {
+    "no":637,
+    "area":"三重區",
+    "name":"親水公園",
+    "address":"環河北路、吉祥街交叉口(溪美抽水站斜對面)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4890419,25.0884509 ]
+    },
+    "properties": {
+    "no":638,
+    "area":"三重區",
+    "name":"大山公園",
+    "address":"吉祥街與三賢街交叉口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4856753,25.0863252 ]
+    },
+    "properties": {
+    "no":639,
+    "area":"三重區",
+    "name":"太陽公園",
+    "address":"集仁街與三賢街交叉口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.487553,25.0895703 ]
+    },
+    "properties": {
+    "no":640,
+    "area":"三重區",
+    "name":"自然公園",
+    "address":"集賢路與如意街交叉口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4935476,25.0864491 ]
+    },
+    "properties": {
+    "no":641,
+    "area":"三重區",
+    "name":"進安公園",
+    "address":"進安街與碧華街交叉口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4878005,25.0896237 ]
+    },
+    "properties": {
+    "no":642,
+    "area":"三重區",
+    "name":"集賢環保公園",
+    "address":"五華街與集賢路口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4899348,25.0795597 ]
+    },
+    "properties": {
+    "no":643,
+    "area":"三重區",
+    "name":"廣一公園",
+    "address":"自強路四段17號對面"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4907736,25.0787463 ]
+    },
+    "properties": {
+    "no":644,
+    "area":"三重區",
+    "name":"廣二公園",
+    "address":"自強路四段17號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.47116,25.0682176 ]
+    },
+    "properties": {
+    "no":645,
+    "area":"三重區",
+    "name":"大有公園",
+    "address":"三重疏洪東路榖保家商後側"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4752827,25.066289 ]
+    },
+    "properties": {
+    "no":646,
+    "area":"三重區",
+    "name":"二重公園",
+    "address":"三重區頂崁街210巷口與疏洪東路交叉口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4769423,25.0655551 ]
+    },
+    "properties": {
+    "no":647,
+    "area":"三重區",
+    "name":"同仁公園",
+    "address":"三重金華街同仁宮對面"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4795814,25.0632276 ]
+    },
+    "properties": {
+    "no":648,
+    "area":"三重區",
+    "name":"忠孝公園",
+    "address":"三重區忠孝路三段127巷口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.500534,25.0580782 ]
+    },
+    "properties": {
+    "no":649,
+    "area":"三重區",
+    "name":"港墘公園",
+    "address":"三重區環河北路、環河南路、福德南路(台北橋至忠孝橋之間)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4786542,25.0492818 ]
+    },
+    "properties": {
+    "no":650,
+    "area":"三重區",
+    "name":"德厚公園",
+    "address":"三重區重新路5段283號對面"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4765697,25.051078 ]
+    },
+    "properties": {
+    "no":651,
+    "area":"三重區",
+    "name":"神農公園",
+    "address":"三重區五王北街先嗇宮旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4771089,25.053014 ]
+    },
+    "properties": {
+    "no":652,
+    "area":"三重區",
+    "name":"谷王公園",
+    "address":"三重區五谷王北街161號後側"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4757084,25.0548433 ]
+    },
+    "properties": {
+    "no":653,
+    "area":"三重區",
+    "name":"頂崁公園",
+    "address":"興德路後側"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4739039,25.056222 ]
+    },
+    "properties": {
+    "no":654,
+    "area":"三重區",
+    "name":"群光公園",
+    "address":"中興北街175巷"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4837024,25.066423 ]
+    },
+    "properties": {
+    "no":655,
+    "area":"三重區",
+    "name":"元信公園",
+    "address":"元信一街與元信二街交叉口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4867114,25.0614534 ]
+    },
+    "properties": {
+    "no":656,
+    "area":"三重區",
+    "name":"新北綠家園",
+    "address":"三重區中正北路315巷6弄68號旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.507081,25.054116 ]
+    },
+    "properties": {
+    "no":657,
+    "area":"三重區",
+    "name":"三重環保河濱公園",
+    "address":"121°28'27.59E25° 2'36.38N"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.468235,25.066411 ]
+    },
+    "properties": {
+    "no":658,
+    "area":"三重區",
+    "name":"疏洪親水公園",
+    "address":"121°28'14.89E25° 3'59.26N"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4759684,25.064202 ]
+    },
+    "properties": {
+    "no":659,
+    "area":"三重區",
+    "name":"疏洪荷花公園",
+    "address":"121°28'33.19E25° 3'51.10N"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.478581,25.0606213 ]
+    },
+    "properties": {
+    "no":660,
+    "area":"三重區",
+    "name":"幸福水漾公園",
+    "address":"121°28'49.52E25° 3'24.16N"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.482322,25.049311 ]
+    },
+    "properties": {
+    "no":661,
+    "area":"三重區",
+    "name":"二重疏洪運動公園",
+    "address":"121°28'577E25° 2'57.16N"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4907576,25.0486994 ]
+    },
+    "properties": {
+    "no":662,
+    "area":"三重區",
+    "name":"鴨鴨公園",
+    "address":"121°29'27.54E25° 2'54.87N"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4867114,25.0614534 ]
+    },
+    "properties": {
+    "no":663,
+    "area":"三重區",
+    "name":"溪美園區",
+    "address":"121°29'26.25E25° 5'37.58N"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4724579,25.0464662 ]
+    },
+    "properties": {
+    "no":664,
+    "area":"三重區",
+    "name":"重新園區",
+    "address":"121°29'52.81E25° 5'7.23N"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5044838,25.0723146 ]
+    },
+    "properties": {
+    "no":665,
+    "area":"三重區",
+    "name":"三重寵物公園",
+    "address":"121°30'15.55E25° 4'20.77N"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4981477,25.0730583 ]
+    },
+    "properties": {
+    "no":666,
+    "area":"三重區",
+    "name":"龍門園區",
+    "address":"121°30'17.10E25° 4'15.98N"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4867114,25.0614534 ]
+    },
+    "properties": {
+    "no":667,
+    "area":"三重區",
+    "name":"忠孝園區",
+    "address":"121°29'53.65E25° 3'18.24N"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6404309,25.2215748 ]
+    },
+    "properties": {
+    "no":668,
+    "area":"金山區",
+    "name":"中山溫泉公園",
+    "address":"新北市金山區大同里溫泉路3號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6288029,25.2214549 ]
+    },
+    "properties": {
+    "no":669,
+    "area":"金山區",
+    "name":"運動休閒廣場",
+    "address":"新北市金山區五湖里南勢53號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.646784,25.2230531 ]
+    },
+    "properties": {
+    "no":670,
+    "area":"金山區",
+    "name":"豐漁里公園",
+    "address":"新北市金山區豐漁里民生路172-1號(近金山萬里自行車跨橋對面)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6342437,25.2135968 ]
+    },
+    "properties": {
+    "no":671,
+    "area":"金山區",
+    "name":"公館崙公園",
+    "address":"新北市金山區五湖里龜子山路?"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6367773,25.2223616 ]
+    },
+    "properties": {
+    "no":672,
+    "area":"金山區",
+    "name":"犀牛綠地",
+    "address":"新北市金山區五湖里            (近陽金公路與磺港中橋交叉口)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6367773,25.2223616 ]
+    },
+    "properties": {
+    "no":673,
+    "area":"金山區",
+    "name":"飛撲綠地",
+    "address":"新北市金山區清泉里           (近淡金公路與清水路交叉口)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6475611,25.223364 ]
+    },
+    "properties": {
+    "no":674,
+    "area":"金山區",
+    "name":"豐漁里綠地",
+    "address":"新北市金山區豐漁里    (近金山區豐漁社區水尾停車場)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6459067,25.227599 ]
+    },
+    "properties": {
+    "no":675,
+    "area":"金山區",
+    "name":"磺港綠地",
+    "address":"新北市金山區磺港里(磺港公共浴室旁)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6367773,25.2223616 ]
+    },
+    "properties": {
+    "no":676,
+    "area":"金山區",
+    "name":"十字手綠地",
+    "address":"新北市金山區和平里       (近中山路與中興路交叉口)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.648872,25.223957 ]
+    },
+    "properties": {
+    "no":677,
+    "area":"金山區",
+    "name":"豐漁綠地",
+    "address":"新北市金山區豐漁里民生路172-1號(近金山萬里自行車跨橋旁邊)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6344603,25.2231562 ]
+    },
+    "properties": {
+    "no":678,
+    "area":"金山區",
+    "name":"流蘇公園",
+    "address":"新北市金山區中華路與四維路旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6366241,25.2201122 ]
+    },
+    "properties": {
+    "no":679,
+    "area":"金山區",
+    "name":"杜鵑公園",
+    "address":"新北市金山區仁愛路與信義路旁(近金美國小)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6405762,25.2200225 ]
+    },
+    "properties": {
+    "no":680,
+    "area":"金山區",
+    "name":"櫻花公園",
+    "address":"新北市金山區民生路右轉中興路(金山分局後方)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6367773,25.2223616 ]
+    },
+    "properties": {
+    "no":681,
+    "area":"金山區",
+    "name":"櫻花綠地",
+    "address":"新北市金山區中山路與中興路交叉口(近萬里)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6551264,25.0571067 ]
+    },
+    "properties": {
+    "no":682,
+    "area":"汐止區",
+    "name":"文化白雲公園",
+    "address":"新北市汐止區水源路二段36巷對面(全家對面，土地公廟旁)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6282137,25.0699134 ]
+    },
+    "properties": {
+    "no":683,
+    "area":"汐止區",
+    "name":"北峰公園",
+    "address":"新北市汐止區中興路與明峰街口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6199494,25.0501309 ]
+    },
+    "properties": {
+    "no":684,
+    "area":"汐止區",
+    "name":"民權公園",
+    "address":"新北市汐止區民權街一段與橫科路口(消防局對面)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6586575,25.0678405 ]
+    },
+    "properties": {
+    "no":685,
+    "area":"汐止區",
+    "name":"汐止公園",
+    "address":"新北市汐止區大同路二段451號旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.625566,25.040018 ]
+    },
+    "properties": {
+    "no":686,
+    "area":"汐止區",
+    "name":"東勢公園",
+    "address":"新北市汐止區東勢街1巷與東勢街交叉口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6313754,25.0696012 ]
+    },
+    "properties": {
+    "no":687,
+    "area":"汐止區",
+    "name":"新金龍公園",
+    "address":"新北市汐止區湖前街31巷"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6740262,25.0795713 ]
+    },
+    "properties": {
+    "no":688,
+    "area":"汐止區",
+    "name":"保長公園",
+    "address":"新北市汐止區保長路45巷旁"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.710385,25.0624516 ]
+    },
+    "properties": {
+    "no":689,
+    "area":"汐止區",
+    "name":"姜子寮公園",
+    "address":"新北市汐止區姜子寮路底"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6743372,25.0664927 ]
+    },
+    "properties": {
+    "no":690,
+    "area":"汐止區",
+    "name":"茄興公園",
+    "address":"新北市汐止區茄興街上，往新台五路的左側"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6416271,25.0710932 ]
+    },
+    "properties": {
+    "no":691,
+    "area":"汐止區",
+    "name":"原住民公園",
+    "address":"新北市汐止區樟樹二路與山光路交叉口"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6373579,25.0685768 ]
+    },
+    "properties": {
+    "no":692,
+    "area":"汐止區",
+    "name":"康福公園",
+    "address":"新北市汐止區福德一路86巷9號"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6560906,25.0639634 ]
+    },
+    "properties": {
+    "no":693,
+    "area":"汐止區",
+    "name":"復興公園",
+    "address":"新北市汐止區大同路至活動中心"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6397184,25.0616059 ]
+    },
+    "properties": {
+    "no":694,
+    "area":"汐止區",
+    "name":"湖興公園",
+    "address":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6198418,25.0506732 ]
+    },
+    "properties": {
+    "no":695,
+    "area":"汐止區",
+    "name":"橫科公園",
+    "address":"新北市汐止區民權街一段與橫科路口(消防局旁邊)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6397184,25.0616059 ]
+    },
+    "properties": {
+    "no":696,
+    "area":"汐止區",
+    "name":"林森公園",
+    "address":"新北市汐止區東勢街15號之1對面(宜興東勢市民活動中心對面)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6177325,25.0466066 ]
+    },
+    "properties": {
+    "no":697,
+    "area":"汐止區",
+    "name":"白雲公園",
+    "address":"福山街62巷底(白雲國小後方)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5685551,25.2959536 ]
+    },
+    "properties": {
+    "no":698,
+    "area":"石門區",
+    "name":"石門洞遊憩區公園",
+    "address":"台2線28.5公里處(五龍宮斜對面)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.639301,25.076029 ]
+    },
+    "properties": {
+    "no":699,
+    "area":"汐止區",
+    "name":"大公雞公園",
+    "address":"新北市汐止區伯爵第五代社區自由女神旁(汐止分局後面)"
+    }
+  },
   {
     "type": "Feature",
     "geometry": {
