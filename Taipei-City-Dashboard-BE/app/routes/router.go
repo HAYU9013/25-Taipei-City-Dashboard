@@ -38,6 +38,8 @@ func ConfigureRoutes() {
 	configureIncidentRoutes()
 	// configureWsRoutes()
 	configureContributorRoutes()
+	configureQuestionRoutes()
+
 }
 
 func configureAuthRoutes() {
@@ -164,6 +166,20 @@ func configureContributorRoutes() {
 		contributorRoutes.PATCH("/:id", controllers.UpdateContributor)
 		contributorRoutes.DELETE("/:id", controllers.DeleteContributor)
 	}
+}
+
+func configureQuestionRoutes() {
+	questionRoutes := RouterGroup.Group("/question")
+	questionRoutes.Use(middleware.LimitAPIRequests(global.IssueLimitAPIRequestsTimes, global.LimitRequestsDuration))
+	questionRoutes.Use(middleware.LimitTotalRequests(global.IssueLimitTotalRequestsTimes, global.LimitRequestsDuration))
+
+	questionRoutes.POST("/", controllers.CreateQuestion)
+	questionRoutes.GET("/", controllers.GetAllQuestions)
+	questionRoutes.GET("/:id", controllers.GetQuestionByID)
+
+	questionRoutes.POST("/:id/vote", controllers.VoteQuestionByID)
+	questionRoutes.GET("/:id/vote-result", controllers.GetVoteResultByID)
+
 }
 
 // func configureWsRoutes() {
