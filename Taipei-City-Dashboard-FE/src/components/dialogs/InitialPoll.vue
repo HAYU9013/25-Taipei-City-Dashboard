@@ -42,7 +42,7 @@ function handleSubmit() {
 async function handleVote(option) {
 	// handle vote logic here
 	console.log("Voted for:", option);
-	const optionIndex = pollOptions.value.indexOf(option);
+	const optionIndex = pollOptions.value.indexOf(option)+1;
 	console.log("Voted for option index:", optionIndex);
 	await http.post(`/question/${pollID.value}/vote`, {
 		choice: optionIndex
