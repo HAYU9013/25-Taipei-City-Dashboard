@@ -51,6 +51,16 @@ func CreateQuestion(c *gin.Context) {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to insert question"})
 		return
 	}
+	// update chart title simutaneously
+	err = models.DBManager.
+		Table("components").
+		Where("index = 'question_statistic'").
+		Update("name", question.Title).Error
+	if err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to update chart title"})
+		return
+	}
+
 
 	c.JSON(http.StatusCreated, gin.H{
 		"message": "Question created successfully",
