@@ -1,22 +1,24 @@
 <template>
 	<div class="admin-add-question">
 		<h1>問題列表</h1>
-		<table>
-			<thead>
-				<tr>
-					<th>ID</th>
-					<th>問題</th>
-					<th>選項</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr v-for="q in questions" :key="q.id">
-					<td>{{ q.id }}</td>
-					<td>{{ q.question }}</td>
-					<td>{{ Array.isArray(q.options) ? q.options.join(', ') : '' }}</td>
-				</tr>
-			</tbody>
-		</table>
+		<div class="table-scroll">
+			<table>
+				<thead>
+					<tr>
+						<th>ID</th>
+						<th>問題</th>
+						<th>選項</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr v-for="q in questions" :key="q.id">
+						<td>{{ q.id }}</td>
+						<td>{{ q.question }}</td>
+						<td>{{ Array.isArray(q.options) ? q.options.join(', ') : '' }}</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
 
 		<h2>新增問題</h2>
 		<form @submit.prevent="submitQuestion">
@@ -98,10 +100,16 @@ export default {
 	font-family: Arial, sans-serif;
 }
 
+.table-scroll {
+	max-height: 400px;
+	overflow-y: auto;
+	margin-top: 20px;
+	border: 1px solid #ccc;
+}
+
 table {
 	width: 100%;
 	border-collapse: collapse;
-	margin-top: 20px;
 }
 
 th,

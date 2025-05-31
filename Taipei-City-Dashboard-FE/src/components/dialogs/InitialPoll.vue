@@ -13,6 +13,17 @@ const pollOptions = ref(["Option 1", "Option 2"]); // default fallback
 
 onMounted(async () => {
 	try {
+		const response = await http.get("/question/");
+		if (response.data && Array.isArray(response.data.data) && response.data.data.length) {
+			const questions = response.data.data;
+			const latest = questions.reduce((prev, curr) => (curr.id > prev.id ? curr : prev), questions[0]);
+			pollID.value = latest.id;
+			console.log("Latest poll id set to:", pollID.value);
+		}
+	} catch (error) {
+		console.error("Failed to fetch questions:", error);
+	}
+	try {
 		const response = await http.get(`/question/${pollID.value}`);
 		if (response.data) {
 			pollTitle.value = response.data.data.question || pollTitle.value;
