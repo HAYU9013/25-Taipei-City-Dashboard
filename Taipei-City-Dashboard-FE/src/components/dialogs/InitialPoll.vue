@@ -15,7 +15,7 @@ onMounted(async () => {
 	try {
 		const response = await http.get(`/question/${pollID.value}`);
 		if (response.data) {
-			pollTitle.value = response.data.data.title || pollTitle.value;
+			pollTitle.value = response.data.data.question || pollTitle.value;
 			pollOptions.value = response.data.data.options || pollOptions.value;
 			console.log("Poll data fetched successfully:", response.data.data);
 		}
@@ -42,8 +42,10 @@ function handleSubmit() {
 async function handleVote(option) {
 	// handle vote logic here
 	console.log("Voted for:", option);
+	const optionIndex = pollOptions.value.indexOf(option);
+	console.log("Voted for option index:", optionIndex);
 	await http.post(`/question/${pollID.value}/vote`, {
-		choice: option
+		choice: optionIndex
 	});
 }
 </script>

@@ -94,6 +94,13 @@ onMounted(() => {
       :expanded="isExpanded"
       index="contributor"
     />
+	<SideBarTab
+	  icon="question_answer"
+	  title="設定問卷"
+	  :expanded="isExpanded"
+	  index="add-question"
+	/>
+	
   </div>
 </template>
 

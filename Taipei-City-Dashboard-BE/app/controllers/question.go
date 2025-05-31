@@ -8,13 +8,13 @@ import (
 	"TaipeiCityDashboardBE/app/models"
 
 	"github.com/gin-gonic/gin"
-
+	"github.com/lib/pq"
 )
 
 type Question struct {
-	ID      int   `json:"id"`
-	Title   string   `gorm:"column:question" json:"question"`
-	Options []string `json:"options"`
+	ID      int           `gorm:"primaryKey;autoIncrement" json:"id"`
+	Title   string        `gorm:"column:question" json:"question"`
+	Options pq.StringArray `gorm:"column:options;type:text[]" json:"options"`
 }
 type Answer struct {
 	ID     int    `gorm:"column:id" json:"id"`
@@ -32,6 +32,8 @@ func CreateQuestion(c *gin.Context) {
 		c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
 		return
 	}
+
+	fmt.Printf("Received question: %+v\n", question)
 
 	// Simulate auto-generating an ID (in real app, use DB auto-increment or UUID)
 
@@ -64,15 +66,21 @@ func GetQuestionByID(c *gin.Context) {
 		c.JSON(http.StatusBadRequest, gin.H{"error": "ID is required"})
 		return
 	}
-
-	// Simulate fetching a question
-	question := map[string]interface{}{
-		"id":      id,
-		"title":   "Sample Question",
-		"options": []string{"Option 1", "Option 2", "Option 3"},
+	qid, err := strconv.Atoi(id)
+	if err != nil {
+		c.JSON(http.StatusBadRequest, gin.H{"error": "Invalid question ID"})
+		return
 	}
 
-	// Read from db
+	var question Question
+	err = models.DBDashboard.
+		Table("question_list").
+		Where("id = ?", qid).
+		First(&question).Error
+	if err != nil {
+		c.JSON(http.StatusNotFound, gin.H{"error": "Question not found"})
+		return
+	}
 
 	c.JSON(http.StatusOK, gin.H{
 		"message": "Question retrieved successfully",
