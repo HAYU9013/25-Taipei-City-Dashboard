@@ -7,20 +7,22 @@ import { useAuthStore } from "../../store/authStore";
 import DialogContainer from "./DialogContainer.vue";
 import http from "../../router/axios"; // Make sure this is your axios instance
 
+const pollID = ref(5); // Default poll ID, can be changed if needed
 const pollTitle = ref("請表態您的立場");
 const pollOptions = ref(["Option 1", "Option 2"]); // default fallback
 
-// onMounted(async () => {
-// 	try {
-// 		const res = await http.get("/api/poll/title");
-// 		pollTitle.value = res.data.title;
-// 		pollOptions.value = res.data.options; // expects options: ["Option 1", "Option 2"]
-// 	} catch (e) {
-// 		pollTitle.value = "請表態您的立場";
-// 		pollOptions.value = ["Option 1", "Option 2"];
-// 	}
-// });
-
+onMounted(async () => {
+	try {
+		const response = await http.get(`/question/${pollID.value}`);
+		if (response.data) {
+			pollTitle.value = response.data.data.title || pollTitle.value;
+			pollOptions.value = response.data.data.options || pollOptions.value;
+			console.log("Poll data fetched successfully:", response.data.data);
+		}
+	} catch (error) {
+		console.error("Failed to fetch poll data:", error);
+	}
+});
 const dialogStore = useDialogStore();
 const authStore = useAuthStore();
 
@@ -37,9 +39,12 @@ function handleSubmit() {
 	handleClose();
 }
 
-function handleVote(option) {
+async function handleVote(option) {
 	// handle vote logic here
 	console.log("Voted for:", option);
+	await http.post(`/question/${pollID.value}/vote`, {
+		choice: option
+	});
 }
 </script>
 
