@@ -3,38 +3,52 @@ package controllers
 import (
 	"fmt"
 	"net/http"
+	"strconv"
+
+	"TaipeiCityDashboardBE/app/models"
 
 	"github.com/gin-gonic/gin"
 
 )
 
 type Question struct {
-	ID      string   `json:"id"`
-	Title   string   `json:"title"`
+	ID      int   `json:"id"`
+	Title   string   `gorm:"column:question" json:"question"`
 	Options []string `json:"options"`
+}
+type Answer struct {
+	ID     int    `gorm:"column:id" json:"id"`
+	Answer int `gorm:"column:answer" json:"choice"`
 }
 
 func CreateQuestion(c *gin.Context) {
 	// Example of creating a question with auto-generated ID and options
-	var req struct {
-		Title   string   `json:"title"`
-		Options []string `json:"options"`
-	}
-	if err := c.ShouldBindJSON(&req); err != nil {
+	// var req struct {
+	// 	Title   string   `gorm:"column:question" json:"title"`
+	// 	Options []string `json:"options"`
+	// }
+	var question Question
+	if err := c.ShouldBindJSON(&question); err != nil {
 		c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
 		return
 	}
 
 	// Simulate auto-generating an ID (in real app, use DB auto-increment or UUID)
-	newID := "generated-id-123" // Replace with actual ID generation
 
-	question := map[string]interface{}{
-		"id":      newID,
-		"title":   req.Title,
-		"options": req.Options,
-	}
+	// question := map[string]interface{}{
+	// 	"id":      nil,
+	// 	"question":   req.Title,
+	// 	"options": req.Options,
+	// }
 
 	// Write to db
+	err := models.DBDashboard.
+		Table("question_list").
+		Create(&question).Error
+	if err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to insert question"})
+		return
+	}
 
 	c.JSON(http.StatusCreated, gin.H{
 		"message": "Question created successfully",
@@ -45,6 +59,7 @@ func GetQuestionByID(c *gin.Context) {
 	// Example of getting a question by ID
 	// In a real application, you would fetch the question from a database
 	id := c.Param("id")
+	
 	if id == "" {
 		c.JSON(http.StatusBadRequest, gin.H{"error": "ID is required"})
 		return
@@ -69,20 +84,17 @@ func GetAllQuestions(c *gin.Context) {
 	// In a real application, you would fetch all questions from a database
 
 	// Simulate fetching questions
-	questions := []map[string]interface{}{
-		{
-			"id":      "1",
-			"title":   "Question 1",
-			"options": []string{"Option A", "Option B"},
-		},
-		{
-			"id":      "2",
-			"title":   "Question 2",
-			"options": []string{"Option X", "Option Y"},
-		},
-	}
+	var questions []Question
 
 	// Read from db
+	err := models.DBDashboard.
+		Table("question_list").
+		Raw(`SELECT id, question, options FROM question_list`).
+		Scan(&questions).Error
+	if err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to retrieve questions"})
+		return
+	}
 
 	c.JSON(http.StatusOK, gin.H{
 		"message": "Questions retrieved successfully",
@@ -91,27 +103,40 @@ func GetAllQuestions(c *gin.Context) {
 }
 func VoteQuestionByID(c *gin.Context) {
 	// 會傳題目 id 和選擇的選項回來
-	id := c.Param("id")
-	var req struct {
-		Choice string `json:"choice"`
+	strId := c.Param("id")
+	id, err := strconv.Atoi(strId)
+	if err != nil {
+		c.JSON(http.StatusBadRequest, gin.H{"error": "Invalid ID format"})
+		return
 	}
+	var req struct {
+		Choice int `json:"choice"`
+	}
+
 	if err := c.ShouldBindJSON(&req); err != nil {
 		c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
 		return
 	}
-	if id == "" || req.Choice == "" {
-		c.JSON(http.StatusBadRequest, gin.H{"error": "id and choice are required Vote recorded for question ID: %s, choice: %s\n, id, req.Choice"})
-		return
-	}
+
 
 	// Simulate voting
 	fmt.Printf("Vote recorded for question ID: %s, choice: %s\n", id, req.Choice)
-
+	answer := Answer{
+		ID:     id,
+		Answer: req.Choice,
+	}
 	// Write to db
+	err = models.DBDashboard.
+		Table("answer_record").
+		Create(&answer).Error
+	if err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to check existing vote"})
+		return
+	}
 
 	c.JSON(http.StatusOK, gin.H{
 		"message": "Vote recorded successfully",
-		"data":    map[string]string{"id": id, "choice": req.Choice},
+		"data":    answer,
 	})
 }
 
