@@ -22,6 +22,7 @@ import AdminSideBar from "./components/utilities/bars/AdminSideBar.vue";
 import SettingsBar from "./components/utilities/bars/SettingsBar.vue";
 import NotificationBar from "./components/dialogs/NotificationBar.vue";
 import InitialWarning from "./components/dialogs/InitialWarning.vue";
+import InitialPoll from "./components/dialogs/InitialPoll.vue";
 import ComponentSideBar from "./components/utilities/bars/ComponentSideBar.vue";
 import LogIn from "./components/dialogs/LogIn.vue";
 
@@ -176,7 +177,8 @@ onBeforeUnmount(() => {
     <div v-else>
       <router-view />
     </div>
-    <InitialWarning />
+    <!-- <InitialWarning /> -->
+	 <InitialPoll />
     <LogIn />
     <div
       v-if="
