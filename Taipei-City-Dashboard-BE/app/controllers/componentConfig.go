@@ -217,7 +217,7 @@ func UpdateComponentChartConfig(c *gin.Context) {
 	}
 
 	if city == ""{
-		city = "taipei"
+		city = "metrotaipei"
 	}
 
 	// 2. Find the component and chart config
