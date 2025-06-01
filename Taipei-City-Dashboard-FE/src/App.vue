@@ -9,6 +9,95 @@ Testing: Jack Huang (Data Scientist), Ian Huang (Data Analysis Intern)
 <!-- Department of Information Technology, Taipei City Government -->
 
 <script setup>
+// import * as THREE from 'three'
+// import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js'
+// import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
+// import { nextTick } from 'vue'
+
+// const threeContainer = ref(null)
+// let renderer, scene, camera, model, controls, animationId
+
+// const showThree = ref(false)
+
+// onMounted(() => {
+//   showThree.value = localStorage.getItem("show3DTest") === "true"
+
+//   if (showThree.value) {
+//     nextTick(() => {
+//       if (!threeContainer.value) {
+//         console.error("threeContainer not ready")
+//         return
+//       }
+
+//       // Scene & Camera
+//       scene = new THREE.Scene()
+//       scene.background = new THREE.Color(0x111111) // dark background
+//       camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000)
+//       camera.position.set(0, 2, 5)
+
+//       // Renderer
+//       renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true })
+//       renderer.setSize(window.innerWidth, window.innerHeight)
+//       renderer.shadowMap.enabled = true
+//       threeContainer.value.appendChild(renderer.domElement)
+
+//       // Controls
+//       controls = new OrbitControls(camera, renderer.domElement)
+//       controls.enableDamping = true
+//       controls.dampingFactor = 0.05
+
+//       // Lights
+//       const ambientLight = new THREE.AmbientLight(0xffffff, 0.5)
+//       scene.add(ambientLight)
+
+//       const spotLight = new THREE.SpotLight(0xffffff, 2)
+//       spotLight.position.set(5, 10, 5)
+//       spotLight.castShadow = true
+//       scene.add(spotLight)
+
+//       // Shadow Plane
+//       const planeGeometry = new THREE.PlaneGeometry(500, 500)
+//       const planeMaterial = new THREE.ShadowMaterial({ opacity: 0.3 })
+//       const shadowPlane = new THREE.Mesh(planeGeometry, planeMaterial)
+//       shadowPlane.rotation.x = -Math.PI / 2
+//       shadowPlane.position.y = -1
+//       shadowPlane.receiveShadow = true
+//       scene.add(shadowPlane)
+
+//       // Load Model
+//       const loader = new GLTFLoader()
+//       loader.load('/models/Codefest_Penguin_0531155635_texture.glb', (gltf) => {
+//         model = gltf.scene
+//         model.scale.set(1, 1, 1)
+//         model.traverse(obj => {
+//           if (obj.isMesh) {
+//             obj.castShadow = true
+//             obj.receiveShadow = true
+//           }
+//         })
+//         scene.add(model)
+//         animate()
+//       })
+//     })
+//   }
+// })
+
+// function animate() {
+//   animationId = requestAnimationFrame(animate)
+//   if (model) model.rotation.y += 0.025
+//   controls.update()
+//   renderer.render(scene, camera)
+// }
+
+// onBeforeUnmount(() => {
+//   cancelAnimationFrame(animationId)
+//   renderer?.dispose?.()
+// })
+
+
+
+import ThreePenguinShow from './dashboardComponent/components/ThreePenguinShow.vue'
+
 import { onBeforeMount, onMounted, onBeforeUnmount, ref, computed, watch } from "vue";
 import { useRoute } from "vue-router"
 import { useAuthStore } from "./store/authStore";
@@ -22,9 +111,9 @@ import AdminSideBar from "./components/utilities/bars/AdminSideBar.vue";
 import SettingsBar from "./components/utilities/bars/SettingsBar.vue";
 import NotificationBar from "./components/dialogs/NotificationBar.vue";
 import InitialWarning from "./components/dialogs/InitialWarning.vue";
-import InitialPoll from "./components/dialogs/InitialPoll.vue";
 import ComponentSideBar from "./components/utilities/bars/ComponentSideBar.vue";
 import LogIn from "./components/dialogs/LogIn.vue";
+import InitialPoll from "./components/dialogs/InitialPoll.vue";
 
 const authStore = useAuthStore();
 const dialogStore = useDialogStore();
@@ -121,7 +210,7 @@ onBeforeMount(() => {
 });
 onMounted(() => {
 	const showInitialWarning = localStorage.getItem("initialWarning");
-
+	
 	if (!showInitialWarning && !window.location.pathname.includes("embed")) {
 		dialogStore.showDialog("initialWarning");
 	}
@@ -178,8 +267,13 @@ onBeforeUnmount(() => {
       <router-view />
     </div>
     <!-- <InitialWarning /> -->
-	 <InitialPoll />
+	<InitialPoll />
     <LogIn />
+	<!-- ⬇️ Three.js 測試區，只在 test=3d 出現 -->
+	<!-- <div v-if="showThree" ref="threeContainer" style="position:fixed; top:0; left:0; width:100vw; height:100vh; z-index:9999; background:black;" /> -->
+	<!-- ⬇️ 使用元件版 -->
+	<ThreePenguinShow />
+
     <div
       v-if="
         ['dashboard', 'mapview'].includes(authStore.currentPath) &&
