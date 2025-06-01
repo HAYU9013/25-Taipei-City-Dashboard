@@ -93,62 +93,150 @@ export default {
 	}
 };
 </script>
-
-<style scoped>
+<style scoped lang="scss">
 .admin-add-question {
-	padding: 20px;
-	font-family: Arial, sans-serif;
-}
+  padding: 24px;
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  box-sizing: border-box;
 
-.table-scroll {
-	max-height: 400px;
-	overflow-y: auto;
-	margin-top: 20px;
-	border: 1px solid #ccc;
-}
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
 
-table {
-	width: 100%;
-	border-collapse: collapse;
-}
+  h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 32px;
+    margin-bottom: 16px;
+  }
 
-th,
-td {
-	border: 1px solid #ccc;
-	padding: 8px;
-	text-align: left;
-}
+  .table-scroll {
+    max-height: 400px;
+    overflow-y: auto;
+    margin-top: 20px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    width: 100%;
 
-form {
-	margin-top: 30px;
-	border: 1px solid #ccc;
-	padding: 15px;
-	max-width: 600px;
-}
+    table {
+      width: 100%;
+      border-collapse: collapse;
 
-input,
-textarea {
-	width: 100%;
-	padding: 10px;
-	margin-bottom: 10px;
-	box-sizing: border-box;
-}
+      thead {
+        background-color: #333;
+        th {
+          padding: 12px;
+          border-bottom: 1px solid #333;
+          text-align: left;
+          color: #fff;
+        }
+      }
 
-.options-list {
-	margin-bottom: 10px;
-}
+      tbody {
+        tr {
+          &:hover {
+            background-color: #444;
+          }
+          td {
+            padding: 12px;
+            border-bottom: 1px solid #333;
+            text-align: left;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
 
-.option-item {
-	display: flex;
-	align-items: center;
-	margin-bottom: 5px;
-}
+  form {
+    margin-top: 30px;
 
-.option-item input {
-	flex-grow: 1;
-}
+    label {
+      font-weight: bold;
+      display: block;
+      margin-bottom: 8px;
+      font-size: 14px;
+      color: #fff;
+    }
 
-.option-item button {
-	margin-left: 10px;
+    textarea,
+    input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 16px;
+      border: 1px solid #555;
+      border-radius: 4px;
+      font-size: 15px;
+      box-sizing: border-box;
+      background-color: #222;
+      color: #fff;
+    }
+
+    .options-list {
+      .option-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+
+        input {
+          flex: 1;
+        }
+
+        button {
+          margin-left: 10px;
+          padding: 6px 10px;
+          border: none;
+          border-radius: 4px;
+          background-color: #e57373;
+          color: #fff;
+          cursor: pointer;
+
+          &:hover {
+            background-color: #d32f2f;
+          }
+        }
+      }
+
+      > button {
+        padding: 10px 16px;
+        border: none;
+        border-radius: 4px;
+        background-color: #42a5f5;
+        color: #fff;
+        cursor: pointer;
+        font-size: 15px;
+        margin-top: 10px;
+        width: 100%;
+
+        &:hover {
+          background-color: #1e88e5;
+        }
+      }
+    }
+
+    > button[type="submit"] {
+      padding: 10px 16px;
+      border: none;
+      border-radius: 4px;
+      background-color: #42a5f5;
+      color: #fff;
+      cursor: pointer;
+      font-size: 15px;
+      margin-top: 10px;
+      width: 100%;
+
+      &:hover {
+        background-color: #1e88e5;
+      }
+    }
+  }
+
+  @media (max-width: 520px) {
+    padding: 16px;
+  }
 }
 </style>

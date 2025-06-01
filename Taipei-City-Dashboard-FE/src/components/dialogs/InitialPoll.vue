@@ -8,33 +8,10 @@ import DialogContainer from "./DialogContainer.vue";
 import http from "../../router/axios"; // Make sure this is your axios instance
 import DashboardComponent from "../../dashboardComponent/DashboardComponent.vue";
 
-const pollID = ref(5); // Default poll ID, can be changed if needed
+const pollID = ref(1); // Default poll ID, can be changed if needed
 const pollTitle = ref("請表態您的立場");
 const pollOptions = ref(["Option 1", "Option 2"]); // default fallback
 
-onMounted(async () => {
-	try {
-		const response = await http.get("/question/");
-		if (response.data && Array.isArray(response.data.data) && response.data.data.length) {
-			const questions = response.data.data;
-			const latest = questions.reduce((prev, curr) => (curr.id > prev.id ? curr : prev), questions[0]);
-			pollID.value = latest.id;
-			console.log("Latest poll id set to:", pollID.value);
-		}
-	} catch (error) {
-		console.error("Failed to fetch questions:", error);
-	}
-	try {
-		const response = await http.get(`/question/${pollID.value}`);
-		if (response.data) {
-			pollTitle.value = response.data.data.question || pollTitle.value;
-			pollOptions.value = response.data.data.options || pollOptions.value;
-			console.log("Poll data fetched successfully:", response.data.data);
-		}
-	} catch (error) {
-		console.error("Failed to fetch poll data:", error);
-	}
-});
 
 // 用來存放從後端拿到的完整「config」
 const dashboardConfig = ref(null);
@@ -49,6 +26,18 @@ const dialogStore = useDialogStore();
 const authStore = useAuthStore();
 
 onMounted(async () => {
+
+	try {
+		const response = await http.get("/question/");
+		if (response.data && Array.isArray(response.data.data) && response.data.data.length) {
+			const questions = response.data.data;
+			const latest = questions.reduce((prev, curr) => (curr.id > prev.id ? curr : prev), questions[0]);
+			pollID.value = latest.id;
+			console.log("Latest poll id set to:", pollID.value);
+	}
+	} catch (error) {
+		console.error("Failed to fetch questions:", error);
+	}
   // 先取得 Poll 的標題與選項
   try {
     const response = await http.get(`/question/${pollID.value}`);

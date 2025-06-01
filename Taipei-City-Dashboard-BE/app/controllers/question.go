@@ -51,6 +51,10 @@ func CreateQuestion(c *gin.Context) {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to insert question"})
 		return
 	}
+	// create a table to record answers
+	// add a column to components
+	// add a column to components chart
+	// add a column to query chart
 	// update chart title simutaneously
 	err = models.DBManager.
 		Table("components").
